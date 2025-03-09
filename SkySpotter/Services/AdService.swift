@@ -99,9 +99,9 @@ class AdService: NSObject, ObservableObject {
             return false
         }
         
-        // Get the root view controller - alternative approach
-        if let keyWindow = UIApplication.shared.windows.first(where: { $0.isKeyWindow }),
-           let rootViewController = keyWindow.rootViewController {
+        // Get the root view controller - using the updated approach for iOS 15+
+        if let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene,
+           let rootViewController = windowScene.windows.first?.rootViewController {
             
             print("Found root view controller: \(type(of: rootViewController))")
             print("About to present interstitial ad...")
@@ -112,7 +112,6 @@ class AdService: NSObject, ObservableObject {
             lastAdShownTime = Date()
             
             // Clear the current ad reference
-            let adRef = interstitialAd
             interstitialAd = nil
             
             // Load a new ad for next time

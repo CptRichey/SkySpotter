@@ -13,7 +13,7 @@ struct DifficultySelectionView: View {
     private let appPurple = Color(red: 0.78, green: 0.31, blue: 0.68)    // #C750AD
     
     var body: some View {
-        NavigationView {
+        NavigationStack {
             ZStack {
                 // Background
                 (userViewModel.isDarkMode ? ColorTheme.darkBackground : ColorTheme.background)
@@ -82,14 +82,11 @@ struct DifficultySelectionView: View {
                     }
                 }
                 .navigationBarHidden(true)
-                .background(
-                    NavigationLink(
-                        destination: QuizView(
-                            category: category,
-                            difficulty: selectedDifficulty ?? .easy
-                        ),
-                        isActive: $navigateToQuiz
-                    ) { EmptyView() }
+            }
+            .navigationDestination(isPresented: $navigateToQuiz) {
+                QuizView(
+                    category: category,
+                    difficulty: selectedDifficulty ?? .easy
                 )
             }
             .onAppear {

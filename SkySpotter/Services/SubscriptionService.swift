@@ -102,7 +102,7 @@ class SubscriptionService: ObservableObject {
         }
         
         do {
-            try? await AppStore.sync()
+            try await AppStore.sync()
             
             // Update the subscription status after restoring
             await updateSubscriptionStatus()
@@ -131,27 +131,30 @@ class SubscriptionService: ObservableObject {
     }
     
     private func updateSubscriptionStatus() async {
-        var hasActiveSubscription = false
+        // Use a local value that won't be captured across suspension points
+        var localHasActiveSubscription = false
         
         // Get the latest subscription status
         for await result in Transaction.currentEntitlements {
             if case .verified(let transaction) = result {
                 if transaction.productType == .autoRenewable {
-                    // Check if the transaction is still valid (not expired)
                     let currentDate = Date()
                     if let expirationDate = transaction.expirationDate, currentDate < expirationDate {
-                        hasActiveSubscription = true
+                        localHasActiveSubscription = true
                         print("Found active subscription expiring: \(expirationDate)")
                     }
                 }
             }
         }
         
-        // Update subscription status on the main thread
+        // Capture the final value to use after the loop
+        let finalHasActiveSubscription = localHasActiveSubscription
+        
+        // Update on main thread with the final value
         await MainActor.run {
-            self.isSubscribed = hasActiveSubscription
-            DataService.shared.setSubscriptionStatus(hasActiveSubscription)
-            print("Subscription status updated: \(hasActiveSubscription ? "Active" : "Inactive")")
+            self.isSubscribed = finalHasActiveSubscription
+            DataService.shared.setSubscriptionStatus(finalHasActiveSubscription)
+            print("Subscription status updated: \(finalHasActiveSubscription ? "Active" : "Inactive")")
         }
     }
     

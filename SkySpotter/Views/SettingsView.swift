@@ -15,7 +15,7 @@ struct SettingsView: View {
                 // Appearance section
                 Section(header: Text("Appearance")) {
                     Toggle("Dark Mode", isOn: $userViewModel.isDarkMode)
-                        .onChange(of: userViewModel.isDarkMode) { _ in
+                        .onChange(of: userViewModel.isDarkMode) { oldValue, newValue in
                             userViewModel.toggleDarkMode()
                         }
                 }

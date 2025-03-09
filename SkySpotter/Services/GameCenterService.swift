@@ -22,7 +22,8 @@ class GameCenterService: ObservableObject {
                     // This needs to be presented from your main view controller
                     
                     // Get the root view controller
-                    if let rootViewController = UIApplication.shared.windows.first?.rootViewController {
+                    if let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene,
+                       let rootViewController = windowScene.windows.first?.rootViewController {
                         rootViewController.present(viewController, animated: true)
                     }
                 } else if let error = error {
@@ -87,7 +88,8 @@ class GameCenterService: ObservableObject {
         
         // Present the view controller
         DispatchQueue.main.async {
-            if let rootViewController = UIApplication.shared.windows.first?.rootViewController {
+            if let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene,
+               let rootViewController = windowScene.windows.first?.rootViewController {
                 rootViewController.present(viewController, animated: true)
             }
         }

@@ -109,7 +109,7 @@ struct LeaderboardView: View {
                 isAuthenticated = gameCenterService.isAuthenticated
                 gameCenterService.authenticateUser()
             }
-            .onChange(of: gameCenterService.isAuthenticated) { newValue in
+            .onChange(of: gameCenterService.isAuthenticated) { oldValue, newValue in
                 isAuthenticated = newValue
             }
         }
