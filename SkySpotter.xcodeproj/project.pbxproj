@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BF5F7B82D76A9CB00B0C151 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BF5F7B72D76A9CB00B0C151 /* GameKit.framework */; };
+		1BF5F7BA2D76A9E200B0C151 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BF5F7B92D76A9E200B0C151 /* StoreKit.framework */; };
+		1BF5F7BE2D76ABCB00B0C151 /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = 1BF5F7BD2D76ABCB00B0C151 /* GoogleMobileAds */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B7923E62D75EC82007F9DF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B7923CD2D75EC80007F9DF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B7923D42D75EC80007F9DF8;
+			remoteInfo = SkySpotter;
+		};
+		1B7923F02D75EC82007F9DF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B7923CD2D75EC80007F9DF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B7923D42D75EC80007F9DF8;
+			remoteInfo = SkySpotter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B7923D52D75EC80007F9DF8 /* SkySpotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkySpotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B7923E52D75EC82007F9DF8 /* SkySpotterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkySpotterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B7923EF2D75EC82007F9DF8 /* SkySpotterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkySpotterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BF5F7B72D76A9CB00B0C151 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		1BF5F7B92D76A9E200B0C151 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		1BD8B95B2D7DEB1D008DF1EB /* Exceptions for "SkySpotter" folder in "SkySpotter" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 1B7923D42D75EC80007F9DF8 /* SkySpotter */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		1B7923D72D75EC80007F9DF8 /* SkySpotter */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				1BD8B95B2D7DEB1D008DF1EB /* Exceptions for "SkySpotter" folder in "SkySpotter" target */,
+			);
+			path = SkySpotter;
+			sourceTree = "<group>";
+		};
+		1B7923E82D75EC82007F9DF8 /* SkySpotterTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SkySpotterTests;
+			sourceTree = "<group>";
+		};
+		1B7923F22D75EC82007F9DF8 /* SkySpotterUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SkySpotterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B7923D22D75EC80007F9DF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BF5F7BE2D76ABCB00B0C151 /* GoogleMobileAds in Frameworks */,
+				1BF5F7B82D76A9CB00B0C151 /* GameKit.framework in Frameworks */,
+				1BF5F7BA2D76A9E200B0C151 /* StoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B7923E22D75EC82007F9DF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B7923EC2D75EC82007F9DF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B7923CC2D75EC80007F9DF8 = {
+			isa = PBXGroup;
+			children = (
+				1B7923D72D75EC80007F9DF8 /* SkySpotter */,
+				1B7923E82D75EC82007F9DF8 /* SkySpotterTests */,
+				1B7923F22D75EC82007F9DF8 /* SkySpotterUITests */,
+				1BF5F7B62D76A9CA00B0C151 /* Frameworks */,
+				1B7923D62D75EC80007F9DF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B7923D62D75EC80007F9DF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B7923D52D75EC80007F9DF8 /* SkySpotter.app */,
+				1B7923E52D75EC82007F9DF8 /* SkySpotterTests.xctest */,
+				1B7923EF2D75EC82007F9DF8 /* SkySpotterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1BF5F7B62D76A9CA00B0C151 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BF5F7B92D76A9E200B0C151 /* StoreKit.framework */,
+				1BF5F7B72D76A9CB00B0C151 /* GameKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B7923D42D75EC80007F9DF8 /* SkySpotter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B7923F92D75EC82007F9DF8 /* Build configuration list for PBXNativeTarget "SkySpotter" */;
+			buildPhases = (
+				1B7923D12D75EC80007F9DF8 /* Sources */,
+				1B7923D22D75EC80007F9DF8 /* Frameworks */,
+				1B7923D32D75EC80007F9DF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				1B7923D72D75EC80007F9DF8 /* SkySpotter */,
+			);
+			name = SkySpotter;
+			packageProductDependencies = (
+				1BF5F7BD2D76ABCB00B0C151 /* GoogleMobileAds */,
+			);
+			productName = SkySpotter;
+			productReference = 1B7923D52D75EC80007F9DF8 /* SkySpotter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B7923E42D75EC82007F9DF8 /* SkySpotterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B7923FC2D75EC82007F9DF8 /* Build configuration list for PBXNativeTarget "SkySpotterTests" */;
+			buildPhases = (
+				1B7923E12D75EC82007F9DF8 /* Sources */,
+				1B7923E22D75EC82007F9DF8 /* Frameworks */,
+				1B7923E32D75EC82007F9DF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B7923E72D75EC82007F9DF8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1B7923E82D75EC82007F9DF8 /* SkySpotterTests */,
+			);
+			name = SkySpotterTests;
+			packageProductDependencies = (
+			);
+			productName = SkySpotterTests;
+			productReference = 1B7923E52D75EC82007F9DF8 /* SkySpotterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1B7923EE2D75EC82007F9DF8 /* SkySpotterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B7923FF2D75EC82007F9DF8 /* Build configuration list for PBXNativeTarget "SkySpotterUITests" */;
+			buildPhases = (
+				1B7923EB2D75EC82007F9DF8 /* Sources */,
+				1B7923EC2D75EC82007F9DF8 /* Frameworks */,
+				1B7923ED2D75EC82007F9DF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B7923F12D75EC82007F9DF8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1B7923F22D75EC82007F9DF8 /* SkySpotterUITests */,
+			);
+			name = SkySpotterUITests;
+			packageProductDependencies = (
+			);
+			productName = SkySpotterUITests;
+			productReference = 1B7923EF2D75EC82007F9DF8 /* SkySpotterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B7923CD2D75EC80007F9DF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					1B7923D42D75EC80007F9DF8 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					1B7923E42D75EC82007F9DF8 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 1B7923D42D75EC80007F9DF8;
+					};
+					1B7923EE2D75EC82007F9DF8 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 1B7923D42D75EC80007F9DF8;
+					};
+				};
+			};
+			buildConfigurationList = 1B7923D02D75EC80007F9DF8 /* Build configuration list for PBXProject "SkySpotter" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B7923CC2D75EC80007F9DF8;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				1BF5F7BC2D76ABBB00B0C151 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 1B7923D62D75EC80007F9DF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B7923D42D75EC80007F9DF8 /* SkySpotter */,
+				1B7923E42D75EC82007F9DF8 /* SkySpotterTests */,
+				1B7923EE2D75EC82007F9DF8 /* SkySpotterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B7923D32D75EC80007F9DF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B7923E32D75EC82007F9DF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B7923ED2D75EC82007F9DF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B7923D12D75EC80007F9DF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B7923E12D75EC82007F9DF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B7923EB2D75EC82007F9DF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B7923E72D75EC82007F9DF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B7923D42D75EC80007F9DF8 /* SkySpotter */;
+			targetProxy = 1B7923E62D75EC82007F9DF8 /* PBXContainerItemProxy */;
+		};
+		1B7923F12D75EC82007F9DF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B7923D42D75EC80007F9DF8 /* SkySpotter */;
+			targetProxy = 1B7923F02D75EC82007F9DF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1B7923F72D75EC82007F9DF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1B7923F82D75EC82007F9DF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B7923FA2D75EC82007F9DF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SkySpotter/SkySpotter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SkySpotter/Preview Content\"";
+				DEVELOPMENT_TEAM = 4XW9ATV89L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SkySpotter/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SkySpotter;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.educational-games";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SkySpotter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1B7923FB2D75EC82007F9DF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SkySpotter/SkySpotter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SkySpotter/Preview Content\"";
+				DEVELOPMENT_TEAM = 4XW9ATV89L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SkySpotter/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SkySpotter;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.educational-games";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SkySpotter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1B7923FD2D75EC82007F9DF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4XW9ATV89L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SkySpotterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkySpotter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SkySpotter";
+			};
+			name = Debug;
+		};
+		1B7923FE2D75EC82007F9DF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4XW9ATV89L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SkySpotterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkySpotter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SkySpotter";
+			};
+			name = Release;
+		};
+		1B7924002D75EC82007F9DF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4XW9ATV89L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SkySpotterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SkySpotter;
+			};
+			name = Debug;
+		};
+		1B7924012D75EC82007F9DF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4XW9ATV89L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SkySpotterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SkySpotter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B7923D02D75EC80007F9DF8 /* Build configuration list for PBXProject "SkySpotter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B7923F72D75EC82007F9DF8 /* Debug */,
+				1B7923F82D75EC82007F9DF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B7923F92D75EC82007F9DF8 /* Build configuration list for PBXNativeTarget "SkySpotter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B7923FA2D75EC82007F9DF8 /* Debug */,
+				1B7923FB2D75EC82007F9DF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B7923FC2D75EC82007F9DF8 /* Build configuration list for PBXNativeTarget "SkySpotterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B7923FD2D75EC82007F9DF8 /* Debug */,
+				1B7923FE2D75EC82007F9DF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B7923FF2D75EC82007F9DF8 /* Build configuration list for PBXNativeTarget "SkySpotterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B7924002D75EC82007F9DF8 /* Debug */,
+				1B7924012D75EC82007F9DF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1BF5F7BC2D76ABBB00B0C151 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1BF5F7BD2D76ABCB00B0C151 /* GoogleMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1BF5F7BC2D76ABBB00B0C151 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
+			productName = GoogleMobileAds;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1B7923CD2D75EC80007F9DF8 /* Project object */;
+}

@@ -1,0 +1,1064 @@
+[
+    {
+      "id": "e3b1c1a9-9f57-4b83-9b5f-18c3e837a920",
+      "imageFileName": "civil_airbus_319_1",
+      "correctAnswer": "Airbus A319",
+      "options": ["Airbus A319", "Boeing 737", "Embraer E175", "Bombardier CRJ900"],
+      "category": "Civil Aircraft",
+      "difficulty": "Easy",
+      "explanation": "The Airbus A319 is distinguished by its rounded nose, smoothly curved cockpit windows, and CFM56 or V2500 engines. It has a shorter fuselage compared to the A320 but retains the same wing design and sharklet option."
+    },
+    {
+      "id": "f8c06dc0-3a9a-4b3c-bc73-02fcb5048bb8",
+      "imageFileName": "civil_airbus_319_1",
+      "correctAnswer": "Airbus A319",
+      "options": ["Boeing 737-700", "Airbus A319", "Airbus A220", "McDonnell Douglas MD-88"],
+      "category": "Civil Aircraft",
+      "difficulty": "Medium",
+      "explanation": "The Airbus A319 can be identified by its slightly taller and more rounded nose compared to the Boeing 737, and its engines, which lack the distinctive flat-bottom nacelle found on the 737. The A319's tail is also noticeably taller in proportion to the fuselage than the A220's."
+    },
+    {
+      "id": "a456ce2b-2b3b-42f8-bc5a-b9c3b2921db3",
+      "imageFileName": "civil_airbus_319_1",
+      "correctAnswer": "Airbus A319",
+      "options": ["Airbus A318", "Airbus A319", "Airbus A320", "Airbus A321"],
+      "category": "Civil Aircraft",
+      "difficulty": "Hard",
+      "explanation": "The Airbus A319 is nearly identical to the A320 and A318 but is distinguished by its fuselage length. The A319 is shorter than the A320 but longer than the A318. Counting the number of passenger windows is a useful way to differentiate these models, along with the engine options available on each variant."
+    },
+    {
+      "id": "5b8c7d34-2171-4f69-8f9d-fb84d2b4e786",
+      "imageFileName": "civil_airbus_319_2",
+      "correctAnswer": "Airbus A319",
+      "options": ["Airbus A319", "Boeing 737", "Embraer E175", "Bombardier CRJ900"],
+      "category": "Civil Aircraft",
+      "difficulty": "Easy",
+      "explanation": "The Airbus A319 is a shortened variant of the A320, featuring the same rounded nose, smoothly curved cockpit windows, and a twin-engine configuration. Its shorter fuselage compared to the A320 is a key identifier."
+    },
+    {
+      "id": "b9f14c53-381e-4d59-904c-44e057d5b8c5",
+      "imageFileName": "civil_airbus_319_2",
+      "correctAnswer": "Airbus A319",
+      "options": ["Boeing 737-700", "Airbus A319", "Airbus A220", "McDonnell Douglas MD-87"],
+      "category": "Civil Aircraft",
+      "difficulty": "Medium",
+      "explanation": "While similar in size to the Boeing 737-700, the Airbus A319 has a more rounded nose and a taller vertical stabilizer. It also lacks the Boeing 737's flat-bottomed engine nacelles and has a different wing design compared to the A220."
+    },
+    {
+      "id": "e617cbb2-2e9b-4ef7-b829-b1cfb5fa8e82",
+      "imageFileName": "civil_airbus_319_2",
+      "correctAnswer": "Airbus A319",
+      "options": ["Airbus A318", "Airbus A319", "Airbus A320", "Airbus A321"],
+      "category": "Civil Aircraft",
+      "difficulty": "Hard",
+      "explanation": "The Airbus A319 is often confused with the A318 and A320 due to their similar designs. The A319 is shorter than the A320 but longer than the A318. The best way to distinguish them is by counting passenger windows or noting fuselage length relative to the wings."
+    },
+    {
+      "id": "a2f7c1e5-73e4-4b2a-9cfd-6f3e8b5d847a",
+      "imageFileName": "civil_airbus_320_1",
+      "correctAnswer": "Airbus A320",
+      "options": ["Airbus A320", "Boeing 737", "Embraer E190", "Bombardier CS300"],
+      "category": "Civil Aircraft",
+      "difficulty": "Easy",
+      "explanation": "The Airbus A320 is a popular narrow-body jet, recognizable by its rounded nose, smoothly contoured cockpit windows, and twin engines. The A320 features a characteristic wingtip fence or sharklets, setting it apart from competitors like the Boeing 737."
+    },
+    {
+      "id": "4d95f6a2-b1a8-4c5d-9349-82e9c9b8e3d5",
+      "imageFileName": "civil_airbus_320_1",
+      "correctAnswer": "Airbus A320",
+      "options": ["Boeing 737-800", "Airbus A320", "Airbus A319", "Mitsubishi SpaceJet"],
+      "category": "Civil Aircraft",
+      "difficulty": "Medium",
+      "explanation": "The Airbus A320 is often mistaken for the Boeing 737, but key differences include its larger, rounder nose and the absence of the 737’s flat-bottomed engine nacelles. Compared to the A319, the A320 has a longer fuselage, making window count a reliable differentiator."
+    },
+    {
+      "id": "d8923e47-8fa5-4f1e-8d02-0c7b4fcf34e2",
+      "imageFileName": "civil_airbus_320_1",
+      "correctAnswer": "Airbus A320",
+      "options": ["Airbus A320", "Airbus A320neo", "Airbus A321", "Airbus A319"],
+      "category": "Civil Aircraft",
+      "difficulty": "Hard",
+      "explanation": "Distinguishing the A320 from the A320neo requires checking engine design—NEO versions have larger, more efficient engines with serrated nacelles. The A321 is longer than the A320, while the A319 is shorter, making fuselage length a critical identifier."
+    },
+    {
+      "id": "b7e6f2c1-3d2b-4a5d-b58f-24e97b4a1d67",
+      "imageFileName": "civil_airbus_320_2",
+      "correctAnswer": "Airbus A320",
+      "options": ["Embraer E195", "Bombardier CS300", "Airbus A320", "Boeing 737"],
+      "category": "Civil Aircraft",
+      "difficulty": "Easy",
+      "explanation": "The Airbus A320 is a narrow-body jet easily recognized by its rounded nose, cockpit window shape, and twin engines. It has wingtip fences or sharklets, distinguishing it from competitors like the Boeing 737, which has a flatter nose and different engine shape."
+    },
+    {
+      "id": "8f47c2b3-6e1d-4b93-9cb1-a2d48e6f9f51",
+      "imageFileName": "civil_airbus_320_2",
+      "correctAnswer": "Airbus A320",
+      "options": ["Boeing 737 MAX 8", "Airbus A319", "Mitsubishi SpaceJet", "Airbus A320"],
+      "category": "Civil Aircraft",
+      "difficulty": "Medium",
+      "explanation": "Compared to the Boeing 737 MAX 8, the Airbus A320 has a more rounded nose and lacks the 737’s flat-bottomed engine nacelles. The A320 is longer than the A319 and has a different wing design compared to the Mitsubishi SpaceJet."
+    },
+    {
+      "id": "cf27e891-5a93-4ecf-8f13-bc4d3e2857a8",
+      "imageFileName": "civil_airbus_320_2",
+      "correctAnswer": "Airbus A320",
+      "options": ["Airbus A321", "Airbus A320neo", "Airbus A320", "Airbus A319"],
+      "category": "Civil Aircraft",
+      "difficulty": "Hard",
+      "explanation": "Differentiating the A320 from the A320neo requires looking at the engines—NEO models have larger, more efficient engines with serrated nacelles. The A321 is longer, while the A319 is shorter, making fuselage length an important identifier."
+    },
+    {
+      "id": "d3f9a4c6-5e82-4b8c-ae37-6c9b7f4d1f25",
+      "imageFileName": "civil_airbus_321_1",
+      "correctAnswer": "Airbus A321",
+      "options": ["Airbus A319", "Airbus A321", "Boeing 737 MAX 9", "Embraer E195"],
+      "category": "Civil Aircraft",
+      "difficulty": "Easy",
+      "explanation": "The Airbus A321 is the largest member of the A320 family, recognized by its long fuselage, two overwing emergency exits per side, and characteristic wingtip fences or sharklets. It is longer than the A320 and A319, making length a key identifier."
+    },
+    {
+      "id": "a742e8c9-3d5f-4f76-bc1e-927a1d8e64a4",
+      "imageFileName": "civil_airbus_321_1",
+      "correctAnswer": "Airbus A321",
+      "options": ["Airbus A321", "Boeing 757-200", "Airbus A320", "Mitsubishi SpaceJet"],
+      "category": "Civil Aircraft",
+      "difficulty": "Medium",
+      "explanation": "The Airbus A321 can be mistaken for the Boeing 757-200 due to their similar fuselage lengths, but the A321 has smaller, more rounded engines and a different landing gear arrangement. Compared to the A320, the A321 has a noticeably longer fuselage and additional overwing exits."
+    },
+    {
+      "id": "e651f3b2-4a78-4c9f-bd1e-8a3c7d5f9a12",
+      "imageFileName": "civil_airbus_321_1",
+      "correctAnswer": "Airbus A321",
+      "options": ["Airbus A321", "Airbus A321neo", "Airbus A320", "Airbus A319"],
+      "category": "Civil Aircraft",
+      "difficulty": "Hard",
+      "explanation": "Distinguishing the Airbus A321 from the A321neo requires examining the engines—the A321neo features larger, quieter, and more efficient engines with serrated nacelles. Compared to the A320 and A319, the A321 is significantly longer and has additional emergency exits."
+    },
+    {
+      "id": "e5a47b8d-29f6-4c38-bf41-8d2a6c9e51f3",
+      "imageFileName": "civil_airbus_321_2",
+      "correctAnswer": "Airbus A321",
+      "options": ["Boeing 737 MAX 9", "Airbus A321", "Airbus A319", "Embraer E195-E2"],
+      "category": "Civil Aircraft",
+      "difficulty": "Easy",
+      "explanation": "The Airbus A321 is the longest version of the A320 family, identifiable by its extended fuselage, two overwing emergency exits per side, and distinctive wingtip fences or sharklets. Compared to the A319, it has a significantly longer body."
+    },
+    {
+      "id": "7f3c8d51-b5a2-4e69-81fa-9d2e6a7c5b14",
+      "imageFileName": "civil_airbus_321_2",
+      "correctAnswer": "Airbus A321",
+      "options": ["Airbus A320", "Airbus A321", "Boeing 757-200", "Mitsubishi SpaceJet"],
+      "category": "Civil Aircraft",
+      "difficulty": "Medium",
+      "explanation": "The Airbus A321 is often compared to the Boeing 757-200 due to similar fuselage lengths, but the A321 has a rounder nose, smaller engines, and a different wing design. Unlike the A320, the A321 has additional emergency exits due to its higher passenger capacity."
+    },
+    {
+      "id": "f9d2b7e6-81c5-4a3f-a7d9-6c5b1f42e8a3",
+      "imageFileName": "civil_airbus_321_2",
+      "correctAnswer": "Airbus A321",
+      "options": ["Airbus A321neo", "Airbus A319", "Airbus A321", "Airbus A320"],
+      "category": "Civil Aircraft",
+      "difficulty": "Hard",
+      "explanation": "The A321 and A321neo share a similar fuselage length, but the A321neo features larger, more efficient engines with serrated nacelles. Compared to the A320 and A319, the A321 is much longer, requiring additional emergency exits to accommodate more passengers."
+    },
+    {
+      "id": "c5d2a3b7-8e1f-42a9-bf6d-7a4e8c6f92d3",
+      "imageFileName": "civil_airbus_321_3",
+      "correctAnswer": "Airbus A321",
+      "options": ["Airbus A321", "Boeing 737 MAX 9", "Embraer E195-E2", "Airbus A319"],
+      "category": "Civil Aircraft",
+      "difficulty": "Easy",
+      "explanation": "The Airbus A321 is the longest variant of the A320 family, recognized by its extended fuselage and two overwing emergency exits per side. The aircraft's tail and rear fuselage design are consistent with the A320 family, making length a key distinguishing factor."
+    },
+    {
+      "id": "f7b4c8e1-39a5-4d6f-8c2e-5a1d7e9b6f34",
+      "imageFileName": "civil_airbus_321_3",
+      "correctAnswer": "Airbus A321",
+      "options": ["Boeing 757-200", "Airbus A321", "Airbus A320", "Mitsubishi SpaceJet"],
+      "category": "Civil Aircraft",
+      "difficulty": "Medium",
+      "explanation": "The Airbus A321 and Boeing 757-200 are similar in size, but the A321 has smaller engines and a rounded nose compared to the more pointed nose of the 757. The A321 is longer than the A320 and has additional emergency exits to accommodate more passengers."
+    },
+    {
+      "id": "a8c2d6f3-7b41-4e9a-b5e1-39f7c8d2a5e6",
+      "imageFileName": "civil_airbus_321_3",
+      "correctAnswer": "Airbus A321",
+      "options": ["Airbus A319", "Airbus A320", "Airbus A321", "Airbus A321neo"],
+      "category": "Civil Aircraft",
+      "difficulty": "Hard",
+      "explanation": "The Airbus A321 can be differentiated from the A319 and A320 by its longer fuselage. Compared to the A321neo, the classic A321 has smaller engines, as the neo version features larger, more efficient turbofans with serrated nacelles for noise reduction."
+    },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440000",
+    "imageFileName": "civil_airbus_330-900_1",
+    "correctAnswer": "Airbus 330",
+    "options": ["Boeing 787", "Airbus A320", "Boeing 757", "Airbus 330"],
+    "category": "Civil Aircraft",
+    "difficulty": "Easy",
+    "explanation": "The Airbus A330 is recognizable by its distinctive curved sharklet wingtips and Rolls-Royce Trent 7000 engines."
+  },
+  {
+    "id": "550e8400-e29b-21e4-a716-446655140000",
+    "imageFileName": "civil_airbus_330_2",
+    "correctAnswer": "Airbus 330",
+    "options": ["Boeing 787", "Airbus A320", "Boeing 767", "Airbus 330"],
+    "category": "Civil Aircraft",
+    "difficulty": "Medium",
+    "explanation": "The Airbus A330 is recognizable by its distinctive curved sharklet wingtips and Rolls-Royce Trent 7000 engines."
+  },
+  {
+    "id": "d7b5e3a9-4c8f-42e1-bf29-6a3c7d5f91e4",
+    "imageFileName": "civil_airbus_330_3",
+    "correctAnswer": "Airbus A330",
+    "options": ["Boeing 767", "Airbus A330", "Airbus A350", "McDonnell Douglas MD-11"],
+    "category": "Civil Aircraft",
+    "difficulty": "Easy",
+    "explanation": "The Airbus A330 is a twin-engine wide-body jet with a distinctive rounded nose, smoothly contoured cockpit windows, and a long fuselage. It features a characteristic main landing gear with four wheels per bogie and large, high-bypass turbofan engines."
+  },
+  {
+    "id": "b4e8c2d9-7a3f-4e51-9f6a-3d7c8b5f21e6",
+    "imageFileName": "civil_airbus_330_3",
+    "correctAnswer": "Airbus A330",
+    "options": ["Airbus A310", "Boeing 777", "Airbus A330", "Boeing 787"],
+    "category": "Civil Aircraft",
+    "difficulty": "Medium",
+    "explanation": "The Airbus A330 can be distinguished from the Boeing 777 by its smaller, more rounded nose and cockpit windows. Unlike the Boeing 787, it lacks the raked wingtips and has more traditional winglets. Compared to the Airbus A310, the A330 has a longer fuselage and larger engines."
+  },
+  {
+    "id": "f2a7d9e3-8c5b-4f6a-9b12-3d7e5c1b84f9",
+    "imageFileName": "civil_airbus_330_3",
+    "correctAnswer": "Airbus A330",
+    "options": ["Airbus A330", "Airbus A330neo", "Airbus A350", "Boeing 767-400"],
+    "category": "Civil Aircraft",
+    "difficulty": "Hard",
+    "explanation": "The Airbus A330 and A330neo share the same fuselage, but the A330neo has larger, more fuel-efficient engines and new curved winglets. The A350 has a more streamlined nose and larger windows, while the Boeing 767-400 has a different wing design and a more angular nose shape."
+  },
+  {
+    "id": "e9c7b4f1-5a3d-4f8e-b26c-7d5f92a1e38b",
+    "imageFileName": "civil_airbus_330_4",
+    "correctAnswer": "Airbus A330",
+    "options": ["Boeing 767", "McDonnell Douglas MD-11", "Airbus A330", "Airbus A350"],
+    "category": "Civil Aircraft",
+    "difficulty": "Easy",
+    "explanation": "The Airbus A330 is a twin-engine wide-body aircraft with a rounded nose and smoothly contoured cockpit windows. Its main landing gear consists of two four-wheel bogies, distinguishing it from aircraft like the Boeing 767, which has a different landing gear design."
+  },
+  {
+    "id": "f5b2e7d9-3c8a-4f61-9a47-2d6f8b1a35e9",
+    "imageFileName": "civil_airbus_330_4",
+    "correctAnswer": "Airbus A330",
+    "options": ["Airbus A310", "Boeing 777", "Boeing 787", "Airbus A330"],
+    "category": "Civil Aircraft",
+    "difficulty": "Medium",
+    "explanation": "The Airbus A330 is often confused with the Boeing 777, but the A330 has a more rounded nose and smaller engines. Compared to the Airbus A310, it has a longer fuselage and more advanced wing aerodynamics. The Boeing 787 has more raked wingtips and a smoother nose profile."
+  },
+  {
+    "id": "c7d5f9e3-8a2b-4f61-9b47-3d6f5b1a27e8",
+    "imageFileName": "civil_airbus_330_4",
+    "correctAnswer": "Airbus A330",
+    "options": ["Airbus A330neo", "Airbus A350", "Boeing 767-400", "Airbus A330"],
+    "category": "Civil Aircraft",
+    "difficulty": "Hard",
+    "explanation": "The Airbus A330 and A330neo share the same fuselage, but the A330neo has larger, more efficient engines and new curved winglets. The A350 has a sleeker fuselage with larger windows, while the Boeing 767-400 has a more angular nose shape and a different wing design."
+  },
+  {
+    "id": "f8b2d7e3-9c4a-5f61-8a3b-2d6e1b47c5f9",
+    "imageFileName": "civil_airbus_340_1",
+    "correctAnswer": "Airbus A340",
+    "options": ["Airbus A340", "McDonnell Douglas MD-11", "Boeing 777-300", "Airbus A330"],
+    "category": "Civil Aircraft",
+    "difficulty": "Easy",
+    "explanation": "The Airbus A340 is a four-engine wide-body jet with a design similar to the twin-engine Airbus A330. It has a long fuselage, wingtip fences or sharklets, and four engines, distinguishing it from the Boeing 777 and Airbus A330, which have only two engines."
+  },
+  {
+    "id": "b3d8f2a7-4e6c-5a1b-9f3d-2c7e4b35f81a",
+    "imageFileName": "civil_airbus_340_1",
+    "correctAnswer": "Airbus A340",
+    "options": ["Boeing 747-400", "Airbus A340", "Boeing 767-400", "Airbus A310"],
+    "category": "Civil Aircraft",
+    "difficulty": "Medium",
+    "explanation": "While the Airbus A340 has four engines like the Boeing 747, it lacks the distinctive hump of the 747. The A340 has a sleeker fuselage than the Boeing 767-400 and a longer body compared to the Airbus A310, making fuselage length and the number of engines key identifiers."
+  },
+  {
+    "id": "e7c5b9d2-3a8f-4f61-9b4e-2d6e1b47f35a",
+    "imageFileName": "civil_airbus_340_1",
+    "correctAnswer": "Airbus A340",
+    "options": ["Airbus A340", "Airbus A340-600", "Boeing 777-300ER", "McDonnell Douglas DC-10"],
+    "category": "Civil Aircraft",
+    "difficulty": "Hard",
+    "explanation": "The Airbus A340 comes in multiple variants, with the A340-600 being significantly longer than the A340-300. Unlike the Boeing 777-300ER, which has only two engines, the A340 has four. The McDonnell Douglas DC-10, while also a wide-body, has a trijet configuration with a tail-mounted engine."
+  },
+  {
+    "id": "b3f8d2a7-4e9c-5a1b-7f6d-2c9e4b35f81a",
+    "imageFileName": "civil_airbus_340-300_2",
+    "correctAnswer": "Airbus A340-300",
+    "options": ["Airbus A330", "McDonnell Douglas MD-11", "Boeing 777-300", "Airbus A340-300"],
+    "category": "Civil Aircraft",
+    "difficulty": "Easy",
+    "explanation": "The Airbus A340-300 is a long-range, four-engine wide-body jet. It features a similar fuselage design to the A330 but has four engines instead of two. The A340-300 has a distinctive long fuselage and a conventional tail with a streamlined nose."
+  },
+  {
+    "id": "e7c5a3b9-2d6f-4f81-9b4e-8a35d1f27c3a",
+    "imageFileName": "civil_airbus_340-300_2",
+    "correctAnswer": "Airbus A340-300",
+    "options": ["Airbus A340-300", "Boeing 747-400", "Airbus A310", "Boeing 767-400"],
+    "category": "Civil Aircraft",
+    "difficulty": "Medium",
+    "explanation": "The Airbus A340-300 is often mistaken for the Boeing 747 due to its four engines, but it has a single-deck fuselage compared to the 747's distinctive hump. It differs from the A310 and Boeing 767-400 due to its longer fuselage and four-engine configuration."
+  },
+  {
+    "id": "f9b2d8e7-3a6c-4f51-9c47-2d8e1b35f72a",
+    "imageFileName": "civil_airbus_340-300_2",
+    "correctAnswer": "Airbus A340-300",
+    "options": ["Airbus A340-300", "Airbus A340-600", "Boeing 777-300ER", "McDonnell Douglas DC-10"],
+    "category": "Civil Aircraft",
+    "difficulty": "Hard",
+    "explanation": "The Airbus A340-300 is shorter than the A340-600, which has additional fuselage length and larger engines. Unlike the Boeing 777-300ER, which has only two engines, the A340-300 features four smaller engines. The DC-10 has a trijet configuration with a center engine in the tail, while the A340 has two engines under each wing."
+  },
+  {
+    "id": "c7e2b5d9-4f3a-8a1b-9f6d-2c7e4b35f81a",
+    "imageFileName": "civil_airbus_350_1",
+    "correctAnswer": "Airbus A350",
+    "options": ["Boeing 787", "Airbus A330neo", "Airbus A350", "Boeing 777-9"],
+    "category": "Civil Aircraft",
+    "difficulty": "Easy",
+    "explanation": "The Airbus A350 is a modern twin-engine wide-body aircraft with distinctive curved cockpit windows, a sleek fuselage, and large Rolls-Royce Trent XWB engines. Its wingtips curve upward sharply, making it stand out from the Boeing 787 and A330neo."
+  },
+  {
+    "id": "e5c8b3d2-7a9f-4f61-9b4e-2d6e1b47f35a",
+    "imageFileName": "civil_airbus_350_1",
+    "correctAnswer": "Airbus A350",
+    "options": ["Airbus A350", "Boeing 777-300ER", "McDonnell Douglas MD-11", "Boeing 767-400"],
+    "category": "Civil Aircraft",
+    "difficulty": "Medium",
+    "explanation": "The Airbus A350 can be distinguished from the Boeing 777-300ER by its more streamlined nose, larger cockpit windows, and composite fuselage. Unlike the MD-11, it lacks a third tail-mounted engine, and compared to the 767-400, it has a larger fuselage and more efficient aerodynamics."
+  },
+  {
+    "id": "b4d7f2e9-3c5a-8f61-9b2e-2a6e1b47f35c",
+    "imageFileName": "civil_airbus_350_1",
+    "correctAnswer": "Airbus A350",
+    "options": ["Airbus A330neo", "Airbus A350", "Boeing 787-10", "Boeing 777X"],
+    "category": "Civil Aircraft",
+    "difficulty": "Hard",
+    "explanation": "Distinguishing the Airbus A350 from the A330neo requires looking at the cockpit windows—the A350 has a more curved design. Compared to the Boeing 787-10, the A350 has a wider fuselage, while the Boeing 777X has folding wingtips, unlike the A350’s fixed curved wingtips."
+  },
+  {
+    "id": "b2f7e9d3-5c8a-4a61-9b4e-2d6e1b47f35a",
+    "imageFileName": "civil_airbus_350-900_2",
+    "correctAnswer": "Airbus A350-900",
+    "options": ["Boeing 787-9", "Airbus A350-900", "Airbus A330neo", "Boeing 777-8"],
+    "category": "Civil Aircraft",
+    "difficulty": "Easy",
+    "explanation": "The Airbus A350-900 is recognized by its distinctive curved winglets, large Rolls-Royce Trent XWB engines, and sleek, modern fuselage. Its cockpit windows have a unique visor-like shape, setting it apart from the Boeing 787 and A330neo."
+  },
+  {
+    "id": "e3d9b5f7-2a8c-4f61-9b4e-6d2e1c47f35a",
+    "imageFileName": "civil_airbus_350-900_2",
+    "correctAnswer": "Airbus A350-900",
+    "options": ["Airbus A330neo", "Boeing 777-300ER", "Airbus A350-900", "McDonnell Douglas MD-11"],
+    "category": "Civil Aircraft",
+    "difficulty": "Medium",
+    "explanation": "The Airbus A350-900 differs from the A330neo with its larger, more efficient engines and curved wingtips. Unlike the Boeing 777-300ER, which has a more traditional fuselage design, the A350-900 has an all-composite body with larger windows."
+  },
+  {
+    "id": "c7e5b2d9-4f3a-8a61-9b4e-2d6e1b47f35c",
+    "imageFileName": "civil_airbus_350-900_2",
+    "correctAnswer": "Airbus A350-900",
+    "options": ["Airbus A350-900", "Airbus A350-1000", "Boeing 787-10", "Boeing 777X"],
+    "category": "Civil Aircraft",
+    "difficulty": "Hard",
+    "explanation": "The Airbus A350-900 and A350-1000 are similar, but the A350-1000 has a longer fuselage and additional landing gear wheels. Compared to the Boeing 787-10, the A350-900 has a wider fuselage and more efficient aerodynamics, while the Boeing 777X features folding wingtips."
+  },
+  {
+    "id": "e7b5d2c9-4f3a-9a61-9b4e-2d6e1b47f35a",
+    "imageFileName": "civil_airbus_380_1",
+    "correctAnswer": "Airbus A380",
+    "options": ["Boeing 747-8", "McDonnell Douglas MD-11", "Airbus A380", "Boeing 777X"],
+    "category": "Civil Aircraft",
+    "difficulty": "Easy",
+    "explanation": "The Airbus A380 is the world's largest passenger aircraft, featuring a full-length double-deck fuselage, four engines, and massive wings. It is distinguishable from the Boeing 747-8 by its smoother, more aerodynamic profile and lack of a distinctive hump."
+  },
+  {
+    "id": "b3f7d5e2-9c8a-4f61-9b4e-2d6e1b47f35c",
+    "imageFileName": "civil_airbus_380_1",
+    "correctAnswer": "Airbus A380",
+    "options": ["Airbus A340-600", "Airbus A380", "Boeing 747-400", "Boeing 777-300ER"],
+    "category": "Civil Aircraft",
+    "difficulty": "Medium",
+    "explanation": "Unlike the Airbus A340-600, which has four engines but a single deck, the A380 has a full-length double-deck. Compared to the Boeing 747-400, the A380 has a taller, wider fuselage with a more modern wing and larger, quieter engines."
+  },
+  {
+    "id": "c8e2d5f7-4b3a-8a61-9b4e-2d6e1b47f35b",
+    "imageFileName": "civil_airbus_380_1",
+    "correctAnswer": "Airbus A380",
+    "options": ["Airbus A350-1000", "Boeing 747-8", "Airbus A380", "Boeing 777X"],
+    "category": "Civil Aircraft",
+    "difficulty": "Hard",
+    "explanation": "The Airbus A380 and Boeing 747-8 are the largest passenger aircraft, but the A380 has a full-length double-deck, while the 747-8 has a partial upper deck. Compared to the Airbus A350-1000 and Boeing 777X, the A380 has four engines instead of two and a significantly larger wingspan."
+  },
+  {
+    "id": "a7d5f2c9-3b8e-4f61-9b4e-2d6e1b47f35a",
+    "imageFileName": "civil_airbus_380_2",
+    "correctAnswer": "Airbus A380",
+    "options": ["Boeing 747-8", "Airbus A380", "McDonnell Douglas MD-11", "Boeing 777X"],
+    "category": "Civil Aircraft",
+    "difficulty": "Easy",
+    "explanation": "The Airbus A380 is the world's largest passenger aircraft, recognizable by its full-length double-deck design, four engines, and massive wingspan. It differs from the Boeing 747-8 by lacking the 747's distinctive hump and having a more modern aerodynamic design."
+  },
+  {
+    "id": "b3f7d2a9-5c8e-4f61-9b4e-2d6e1b47f35c",
+    "imageFileName": "civil_airbus_380_2",
+    "correctAnswer": "Airbus A380",
+    "options": ["Airbus A340-600", "Boeing 747-400", "Boeing 777-300ER", "Airbus A380"],
+    "category": "Civil Aircraft",
+    "difficulty": "Medium",
+    "explanation": "The Airbus A380 is often compared to the Boeing 747-400, but unlike the 747, the A380 has a full-length double-deck fuselage. It also has larger, more fuel-efficient engines than the A340-600 and significantly greater passenger capacity than the Boeing 777-300ER."
+  },
+  {
+    "id": "e5c2b7d9-4f3a-8a61-9b4e-2d6e1b47f35b",
+    "imageFileName": "civil_airbus_380_2",
+    "correctAnswer": "Airbus A380",
+    "options": ["Boeing 747-8", "Airbus A380", "Airbus A350-1000", "Boeing 777X"],
+    "category": "Civil Aircraft",
+    "difficulty": "Hard",
+    "explanation": "The Airbus A380 and Boeing 747-8 are both four-engine aircraft, but the A380 has a full-length double-deck, whereas the 747-8 has a partial hump. Compared to the Airbus A350-1000 and Boeing 777X, the A380 is much larger and features four engines instead of two."
+  },
+  {
+    "id": "b4e7c2d9-5f3a-8a61-9b4e-2d6e1b47f35a",
+    "imageFileName": "civil_atr_72_1",
+    "correctAnswer": "ATR 72",
+    "options": ["Bombardier Dash 8 Q400", "ATR 72", "Saab 2000", "Embraer EMB-120 Brasilia"],
+    "category": "Civil Aircraft",
+    "difficulty": "Easy",
+    "explanation": "The ATR 72 is a twin-engine, high-wing turboprop airliner with six-blade propellers and a distinctive rounded nose. It is larger than the ATR 42 and features a longer fuselage, distinguishing it from other regional turboprops like the Dash 8 Q400."
+  },
+  {
+    "id": "e3d5b7f2-9c8a-4f61-9b4e-2d6e1b47f35c",
+    "imageFileName": "civil_atr_72_1",
+    "correctAnswer": "ATR 72",
+    "options": ["ATR 72", "Bombardier Q300", "Fokker 50", "Dornier 328"],
+    "category": "Civil Aircraft",
+    "difficulty": "Medium",
+    "explanation": "The ATR 72 differs from the Bombardier Q300 with its more rounded nose and slightly lower-set wings. Unlike the Fokker 50, which has a boxier fuselage, the ATR 72 has a sleeker, more curved profile with larger cabin windows."
+  },
+  {
+    "id": "c8e2d5f7-4b3a-8a61-9b4e-2d6e1b47f35b",
+    "imageFileName": "civil_atr_72_1",
+    "correctAnswer": "ATR 72",
+    "options": ["ATR 42", "ATR 72", "Antonov An-140", "CASA C-295"],
+    "category": "Civil Aircraft",
+    "difficulty": "Hard",
+    "explanation": "The ATR 72 and ATR 42 share the same basic design, but the ATR 72 has a longer fuselage and greater seating capacity. Compared to the Antonov An-140, it has a more streamlined nose and a lower-set tail. The CASA C-295, while similar in size, is a military-oriented aircraft with a more angular fuselage."
+  },
+  {
+    "id": "d8b2e7c5-4f3a-9a61-9b4e-2d6e1b47f35a",
+    "imageFileName": "civil_bae_146-300_1",
+    "correctAnswer": "BAe 146-300",
+    "options": ["BAe 146-300", "Bombardier CRJ-1000", "Fokker 70", "Embraer ERJ-145"],
+    "category": "Civil Aircraft",
+    "difficulty": "Easy",
+    "explanation": "The BAe 146-300 is a regional jet with a distinctive high-wing design and four small turbofan engines mounted under the wings. Its T-tail and short landing gear make it easily recognizable compared to twin-engine regional jets like the CRJ-1000."
+  },
+  {
+    "id": "b3e5d7f2-9c8a-4f61-9b4e-2d6e1b47f35c",
+    "imageFileName": "civil_bae_146-300_1",
+    "correctAnswer": "BAe 146-300",
+    "options": ["Avro RJ100", "Boeing 717", "BAe 146-300", "Dornier 328JET"],
+    "category": "Civil Aircraft",
+    "difficulty": "Medium",
+    "explanation": "The BAe 146-300 is the largest variant of the BAe 146 series and is visually similar to the Avro RJ100, which features updated avionics and improved engines. Unlike the Boeing 717, which has rear-mounted engines, the BAe 146 has four underwing-mounted engines."
+  },
+  {
+    "id": "e7b2d5f9-4c3a-8a61-9b4e-2d6e1b47f35b",
+    "imageFileName": "civil_bae_146-300_1",
+    "correctAnswer": "BAe 146-300",
+    "options": ["BAe 146-300", "BAe 146-200", "Avro RJ85", "Fokker 100"],
+    "category": "Civil Aircraft",
+    "difficulty": "Hard",
+    "explanation": "The BAe 146-300 differs from the BAe 146-200 by its longer fuselage, providing more passenger capacity. Compared to the Avro RJ85, the 146-300 has older avionics and less efficient engines. The Fokker 100, in contrast, is a twin-engine regional jet with a different wing configuration."
+  },
+  {
+    "id": "a9d5e3c7-4f3a-9a61-9b4e-2d6e1b47f35a",
+    "imageFileName": "civil_beechcraft_king_air_1",
+    "correctAnswer": "Beechcraft King Air",
+    "options": ["Beechcraft King Air", "Piper Cheyenne", "Cessna 421", "Pilatus PC-12"],
+    "category": "Civil Aircraft",
+    "difficulty": "Easy",
+    "explanation": "The Beechcraft King Air is a twin-turboprop aircraft with a distinctive rounded nose, large cabin windows, and dual Pratt & Whitney PT6 engines. Its T-tail and retractable landing gear differentiate it from smaller piston-engine aircraft."
+  },
+  {
+    "id": "c5b7e3d9-9f4a-4a61-9b4e-2d6e1b47f35c",
+    "imageFileName": "civil_beechcraft_king_air_1",
+    "correctAnswer": "Beechcraft King Air",
+    "options": ["Cessna 441 Conquest", "Beechcraft King Air", "Embraer EMB-110 Bandeirante", "Dassault Falcon 10"],
+    "category": "Civil Aircraft",
+    "difficulty": "Medium",
+    "explanation": "The Beechcraft King Air is larger and more advanced than the Cessna 441 Conquest, with a more spacious cabin and pressurization. Unlike the EMB-110, which is a larger commuter aircraft, the King Air is primarily used for business and medical transport."
+  },
+  {
+    "id": "e3d5b7c9-4a3f-8a61-9b4e-2d6e1b47f35b",
+    "imageFileName": "civil_beechcraft_king_air_1",
+    "correctAnswer": "Beechcraft King Air",
+    "options": ["Beechcraft King Air", "Beechcraft Super King Air", "Cessna 425 Corsair", "Piaggio P.180 Avanti"],
+    "category": "Civil Aircraft",
+    "difficulty": "Hard",
+    "explanation": "The Beechcraft King Air and Super King Air are similar, but the Super King Air features more powerful engines and a longer fuselage. Compared to the Cessna 425 Corsair, the King Air has a larger, pressurized cabin and more powerful turboprop engines. The Piaggio P.180 Avanti has a distinctive forward-swept wing design, unlike the conventional King Air layout."
+  },
+  {
+    "id": "d7b5e3c9-4f3a-9a61-9b4e-2d6e1b47f35a",
+    "imageFileName": "civil_boeing_737_1",
+    "correctAnswer": "Boeing 737",
+    "options": ["Boeing 737", "Airbus A320", "Embraer E190", "Boeing 757"],
+    "category": "Civil Aircraft",
+    "difficulty": "Easy",
+    "explanation": "The Boeing 737 is a narrow-body jet known for its distinctive split winglets or blended winglets, shorter landing gear, and unique engine shape with a flat-bottomed nacelle. It is the world's best-selling commercial aircraft."
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440100",
+    "imageFileName": "civil_boeing_737_1",
+    "correctAnswer": "Boeing 737",
+    "options": ["Boeing 737", "Airbus A320", "Boeing 757", "Embraer E190"],
+    "category": "Civil Aircraft",
+    "difficulty": "Medium",
+    "explanation": "This angle showcases the Boeing 737's distinctive blended winglet used on the 700, 800 & 900 variants."
+  },
+  {
+    "id": "b7e3d5c9-4f3a-9a61-9b4e-2d6e1b47f35a",
+    "imageFileName": "civil_boeing_737_2",
+    "correctAnswer": "Boeing 737",
+    "options": ["Boeing 737", "Airbus A220", "Boeing 757", "Embraer E195"],
+    "category": "Civil Aircraft",
+    "difficulty": "Easy",
+    "explanation": "The Boeing 737 is a twin-engine narrow-body jet with distinctive winglets, a streamlined nose, and a low-slung fuselage. Unlike the Boeing 757, it has a shorter landing gear and a wider engine nacelle with a flattened bottom."
+  },
+  {
+    "id": "c9e5b3d7-9f4a-4a61-9b4e-2d6e1b47f35c",
+    "imageFileName": "civil_boeing_737_2",
+    "correctAnswer": "Boeing 737",
+    "options": ["Boeing 727", "Boeing 737", "Airbus A319", "Bombardier CRJ-900"],
+    "category": "Civil Aircraft",
+    "difficulty": "Medium",
+    "explanation": "The Boeing 737 is different from the Boeing 727, which has a T-tail and three rear-mounted engines. Compared to the Airbus A319, the 737 has a more pointed nose and engine nacelles with a flat-bottomed shape."
+  },
+  {
+    "id": "d3b7f5e9-4f3a-9a61-9b4e-2d6e1b47f35a",
+    "imageFileName": "civil_boeing_737-800_1",
+    "correctAnswer": "Boeing 737-800",
+    "options": ["Boeing 737-800", "Airbus A320", "Boeing 717", "Embraer E195"],
+    "category": "Civil Aircraft",
+    "difficulty": "Easy",
+    "explanation": "The Boeing 737-800 is a widely used narrow-body aircraft with distinctive split-scimitar or blended winglets, a streamlined nose, and a shorter landing gear than larger Boeing models. It differs from the Airbus A320 by having a more pointed nose and unique engine nacelle shape."
+  },
+  {
+    "id": "c8d3e5b7-9f4a-4a61-9b4e-2d6e1b47f35c",
+    "imageFileName": "civil_boeing_737-800_1",
+    "correctAnswer": "Boeing 737-800",
+    "options": ["Boeing 727-200", "Boeing 737-800", "Airbus A319", "McDonnell Douglas MD-90"],
+    "category": "Civil Aircraft",
+    "difficulty": "Medium",
+    "explanation": "The Boeing 737-800 lacks the T-tail and third engine of the Boeing 727. Compared to the Airbus A319, it has a longer fuselage and different cockpit window arrangement. It differs from the MD-90 by having underwing engines instead of rear-mounted ones."
+  },
+  {
+    "id": "e4b3d7f5-4a3f-8a61-9b4e-2d6e1b47f35b",
+    "imageFileName": "civil_boeing_737-800_1",
+    "correctAnswer": "Boeing 737-800",
+    "options": ["Boeing 737 MAX 8", "Boeing 737-800", "Boeing 737-900ER", "Boeing 737 Classic"],
+    "category": "Civil Aircraft",
+    "difficulty": "Hard",
+    "explanation": "The Boeing 737-800 is part of the Next Generation (NG) series. Compared to the 737 MAX 8, it has smaller, CFM56 engines instead of the larger LEAP-1B engines. It differs from the 737-900ER by having a slightly shorter fuselage and different exit door configuration."
+  },
+  {
+    "id": "f2d3e7b5-9a4f-4a61-9b4e-2d6e1b47f35a",
+    "imageFileName": "civil_boeing_737-800_2",
+    "correctAnswer": "Boeing 737-800",
+    "options": ["Boeing 737-800", "Airbus A320", "Embraer E190", "Boeing 757-200"],
+    "category": "Civil Aircraft",
+    "difficulty": "Easy",
+    "explanation": "The Boeing 737-800 is a popular narrow-body jet with distinctive split-scimitar or blended winglets, a streamlined nose, and a low-slung fuselage. Unlike the Airbus A320, the 737 has a more pointed nose and flat-bottomed engine nacelles."
+  },
+  {
+    "id": "d4b3e7f5-9f4a-4a61-9b4e-2d6e1b47f35c",
+    "imageFileName": "civil_boeing_737-800_2",
+    "correctAnswer": "Boeing 737-800",
+    "options": ["Boeing 737-900", "Boeing 737-800", "Boeing 727-200", "McDonnell Douglas MD-88"],
+    "category": "Civil Aircraft",
+    "difficulty": "Medium",
+    "explanation": "The Boeing 737-800 is shorter than the 737-900 but longer than the earlier 737-400. Unlike the Boeing 727-200, which has a T-tail and three rear-mounted engines, the 737-800 has two underwing engines and a conventional tail."
+  },
+  {
+    "id": "e7d3b4f5-4a3f-8a61-9b4e-2d6e1b47f35b",
+    "imageFileName": "civil_boeing_737-800_2",
+    "correctAnswer": "Boeing 737-800",
+    "options": ["Boeing 737 Classic", "Boeing 737-800", "Boeing 737 MAX 8", "Boeing 737-900ER"],
+    "category": "Civil Aircraft",
+    "difficulty": "Hard",
+    "explanation": "The Boeing 737-800 belongs to the Next Generation (NG) series. It has more modern winglets and cockpit avionics than the 737 Classic but lacks the larger LEAP-1B engines of the 737 MAX 8. Compared to the 737-900ER, the 737-800 is slightly shorter and does not have an additional exit door."
+  },
+  {
+    "id": "c7e2f4a9-3d8b-4c6f-b21d-1e7f92d6a3f4",
+    "imageFileName": "civil_boeing_737-800_3",
+    "correctAnswer": "Boeing 737-800",
+    "options": ["Airbus A320", "Boeing 737-800", "Embraer 190", "Boeing 757-200"],
+    "category": "Civil Aircraft",
+    "difficulty": "Easy",
+    "explanation": "The Boeing 737-800 is easily recognizable by its winglets, underwing-mounted engines with a flat-bottom nacelle, and its overall fuselage length. Unlike the Airbus A320, it has a more pointed nose and lower ground clearance."
+  },
+  {
+    "id": "d9b1a6f3-8c4e-4d7f-a21d-3e9f52d6c7a2",
+    "imageFileName": "civil_boeing_737-800_3",
+    "correctAnswer": "Boeing 737-800",
+    "options": ["Boeing 737 MAX 8", "Boeing 737-800", "Boeing 737-900ER", "Boeing 717"],
+    "category": "Civil Aircraft",
+    "difficulty": "Medium",
+    "explanation": "The Boeing 737-800 differs from the 737 MAX 8 in its engine design and lack of distinctive split-scimitar winglets. The 737-900ER is slightly longer, while the 717 has rear-mounted engines and a T-tail."
+  },
+  {
+    "id": "f3e7b9d5-4a8c-2d6f-3b4e-7a1d92f4c6b8",
+    "imageFileName": "civil_boeing_737-800_3",
+    "correctAnswer": "Boeing 737-800",
+    "options": ["Boeing 737-700", "Boeing 737-800", "Boeing 737-900", "Boeing 737 Classic"],
+    "category": "Civil Aircraft",
+    "difficulty": "Hard",
+    "explanation": "The Boeing 737-800 is longer than the 737-700 but shorter than the 737-900. It also features modern winglets and cockpit avionics compared to the older 737 Classic, which has different engine nacelle shapes and a lower-sitting fuselage."
+  },
+  {
+    "id": "c7d5e3b9-4f3a-9a61-9b4e-2d6e1b47f35a",
+    "imageFileName": "civil_boeing_737-900_1",
+    "correctAnswer": "Boeing 737-900",
+    "options": ["Boeing 737-900", "Boeing 757-200", "Airbus A321", "Boeing 737 MAX 9"],
+    "category": "Civil Aircraft",
+    "difficulty": "Easy",
+    "explanation": "The Boeing 737-900 is the longest variant of the 737 Next Generation series. It has a similar fuselage length to the Boeing 757 but can be distinguished by its lower nose, smaller landing gear, and lack of a pronounced tailcone extension like the 757."
+  },
+  {
+    "id": "b5e7d3c9-9f4a-4a61-9b4e-2d6e1b47f35c",
+    "imageFileName": "civil_boeing_737-900_1",
+    "correctAnswer": "Boeing 737-900",
+    "options": ["Boeing 737-800", "Boeing 737-900", "Boeing 727-200", "Airbus A320neo"],
+    "category": "Civil Aircraft",
+    "difficulty": "Medium",
+    "explanation": "Compared to the 737-800, the 737-900 has a longer fuselage and more exit doors to comply with evacuation regulations. It differs from the Boeing 727-200 by lacking a third engine in the tail and from the A320neo by having a more streamlined nose and different winglet design."
+  },
+  {
+    "id": "e3b7d5c9-4a3f-8a61-9b4e-2d6e1b47f35b",
+    "imageFileName": "civil_boeing_737-900_1",
+    "correctAnswer": "Boeing 737-900",
+    "options": ["Boeing 737-900", "Boeing 737 MAX 9", "Boeing 737-900ER", "Boeing 757-300"],
+    "category": "Civil Aircraft",
+    "difficulty": "Hard",
+    "explanation": "The Boeing 737-900 and 737-900ER are nearly identical, but the ER version has additional range capabilities. The 737 MAX 9 features larger CFM LEAP-1B engines and redesigned winglets. The Boeing 757-300 is longer and has a different nose profile compared to the 737-900."
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-4466554400101",
+    "imageFileName": "civil_boeing_737-900_1",
+    "correctAnswer": "Boeing 737-900ER",
+    "options": ["Boeing 737-700", "Boeing 737-800", "Boeing 737-200", "Boeing 737-900ER"],
+    "category": "Civil Aircraft",
+    "difficulty": "Hard",
+    "explanation": "Longer than other 737 variants, with an additional exit door aft of the wing for higher capacity."
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655441234",
+    "imageFileName": "civil_boeing_747-400_1",
+    "correctAnswer": "Boeing 747",
+    "options": ["Boeing 747", "Boeing 777", "Airbus A380", "McDonnell Douglas MD-11"],
+    "category": "Civil Aircraft",
+    "difficulty": "Easy",
+    "explanation": "The Boeing 747-400 is easily recognizable by its distinctive humpbacked upper deck, four-engine configuration, and iconic winglets."
+  },
+  {
+    "id": "e9f2c3b1-4a8d-5f7e-b2d4-6e3f91c8a7d6",
+    "imageFileName": "civil_boeing_767_1",
+    "correctAnswer": "Boeing 767",
+    "options": ["Boeing 757", "Boeing 767", "Airbus A310", "Boeing 777"],
+    "category": "Civil Aircraft",
+    "difficulty": "Medium",
+    "explanation": "The Boeing 767 is characterized by its high-aspect-ratio wings, twin underwing engines, and a fuselage cross-section similar to the 757 but wider. Compared to the Airbus A310, the 767 has a more modern wing and different landing gear placement."
+  },
+  {
+    "id": "c5b9d1a2-3e8f-6d7b-a1c4-2f9e84b5c7e3",
+    "imageFileName": "civil_boeing_767_1",
+    "correctAnswer": "Boeing 767",
+    "options": ["McDonnell Douglas MD-11", "Boeing 787", "Boeing 767", "Lockheed L-1011"],
+    "category": "Civil Aircraft",
+    "difficulty": "Hard",
+    "explanation": "Unlike the MD-11 or L-1011, which have a trijet configuration, the Boeing 767 is a twinjet. It differs from the Boeing 787 due to its more conventional nose shape and lack of raked wingtips."
+  },
+  {
+    "id": "d7e4f1c9-2b8a-5d6f-a3e9-7c4b82d5f1a6",
+    "imageFileName": "civil_boeing_767_1",
+    "correctAnswer": "Boeing 767",
+    "options": ["Boeing 757", "Boeing 777", "Airbus A330", "Boeing 767"],
+    "category": "Civil Aircraft",
+    "difficulty": "Easy",
+    "explanation": "The Boeing 767 has a wider fuselage than the 757 but is smaller than the 777. Unlike the A330, the 767 has a more pointed nose and a distinctively shaped main landing gear."
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-4493844400111",
+    "imageFileName": "civil_boeing_787_1",
+    "correctAnswer": "Boeing 787",
+    "options": ["Boeing 767", "Boeing 777", "Boeing 787", "Boeing 757"],
+    "category": "Civil Aircraft",
+    "difficulty": "Hard",
+    "explanation": "Raked wingtips with a distinctive curve, smooth nose and engine chevrons."
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655441890",
+    "imageFileName": "civil_boeing_787-800_1",
+    "correctAnswer": "Boeing 787",
+    "options": ["Boeing 777", "Airbus A350", "Boeing 787", "Airbus A330"],
+    "category": "Civil Aircraft",
+    "difficulty": "Easy",
+    "explanation": "The Boeing 787 is identifiable by its raked wingtips, smooth nose profile, and large, noise-reducing engine chevrons."
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655441891",
+    "imageFileName": "civil_boeing_787-800_1",
+    "correctAnswer": "Boeing 787-8",
+    "options": ["Boeing 787-9", "Airbus A350", "Boeing 787-8", "Boeing 777"],
+    "category": "Civil Aircraft",
+    "difficulty": "Medium",
+    "explanation": "The Boeing 787 is identifiable by its raked wingtips, smooth nose profile, and large, noise-reducing engine chevrons."
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655441892",
+    "imageFileName": "civil_boeing_787-800_1",
+    "correctAnswer": "Boeing 787-8",
+    "options": ["Boeing 787-9", "Boeing 787-10", "Boeing 787-8", "Boeing 777-300ER"],
+    "category": "Civil Aircraft",
+    "difficulty": "Hard",
+    "explanation": "The Boeing 787-800 is the shortest variant of the 787."
+  },
+  {
+      "id": "27801e85-98d0-4be0-b793-6b72e7a4bfc5",
+      "imageFileName": "civil_boeing_777-200_3.png",
+      "correctAnswer": "Boeing 777",
+      "options": ["Airbus A320", "Boeing 777", "Boeing 747", "McDonnell Douglas MD-11"],
+      "category": "Civil Aircraft",
+      "difficulty": "Easy",
+      "explanation": "The Boeing 777-200 is a large twin-engine airliner with a wide-body fuselage and powerful engines, making it distinct from smaller aircraft like the A320."
+  },
+  {
+      "id": "c23560d3-4a34-4f21-8eab-fd9d7bfc6b7b",
+      "imageFileName": "civil_boeing_777-200_3.png",
+      "correctAnswer": "Boeing 777",
+      "options": ["Boeing 767", "Boeing 777", "Boeing 787", "Airbus A350"],
+      "category": "Civil Aircraft",
+      "difficulty": "Medium",
+      "explanation": "The Boeing 777-200 features large engines, a long fuselage, and a unique six-wheel main landing gear. It is longer than a Boeing 767 but lacks the raked wingtips of the Boeing 787 or Airbus A350."
+  },
+  {
+      "id": "37d173c1-768d-4496-bdac-fc710c733efc",
+      "imageFileName": "civil_boeing_777-200_3.png",
+      "correctAnswer": "Boeing 777-200",
+      "options": ["Boeing 777-300", "Boeing 777F", "Boeing 777-300ER", "Boeing 777-200"],
+      "category": "Civil Aircraft",
+      "difficulty": "Hard",
+      "explanation": "The Boeing 777-200 is the baseline model of the 777 family, shorter than the 777-300 but similar in design. Unlike the 777-300ER, it lacks extended range modifications and raked wingtips."
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440200",
+    "imageFileName": "civil_boeing_777-300ER_1",
+    "correctAnswer": "Boeing 777",
+    "options": ["Boeing 777", "Boeing 757", "Boeing 747", "Airbus A350"],
+    "category": "Civil Aircraft",
+    "difficulty": "Easy",
+    "explanation": "versized GE90 engines, distinctive windows as well as nose shape."
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440776",
+    "imageFileName": "civil_boeing_777-300ER_2",
+    "correctAnswer": "Boeing 777",
+    "options": ["Boeing 767", "Boeing 787", "Airbus 350", "Boeing 777"],
+    "category": "Civil Aircraft",
+    "difficulty": "Easy",
+    "explanation": "The Boeing 777-300ER features oversized GE90 engines, raked wingtips, and a long fuselage with a distinctive six-wheel main landing gear."
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440777",
+    "imageFileName": "civil_boeing_777-300ER_2",
+    "correctAnswer": "Boeing 777-300ER",
+    "options": ["Boeing 787-10", "Boeing 777-300ER", "Boeing 777F", "Boeing 767-400ER"],
+    "category": "Civil Aircraft",
+    "difficulty": "Medium",
+    "explanation": "The Boeing 777-300ER features oversized GE90 engines, raked wingtips, and a long fuselage with a distinctive six-wheel main landing gear."
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440778",
+    "imageFileName": "civil_boeing_777-300ER_2",
+    "correctAnswer": "Boeing 777-300ER",
+    "options": ["Boeing 777-200ER", "Boeing 777-9", "Boeing 777-300ER", "Boeing 777-8"],
+    "category": "Civil Aircraft",
+    "difficulty": "Hard",
+    "explanation": "The Boeing 777-300ER features oversized GE90 engines, raked wingtips, and a long fuselage with a distinctive six-wheel main landing gear."
+  },
+  {
+    "id": "a3d7b1f2-9c8e-4e6d-b2d5-6e3f91c8a7d6",
+    "imageFileName": "civil_boeing_777_1",
+    "correctAnswer": "Boeing 777",
+    "options": ["Boeing 767", "Boeing 777", "Airbus A350", "McDonnell Douglas MD-11"],
+    "category": "Civil Aircraft",
+    "difficulty": "Medium",
+    "explanation": "The Boeing 777 is known for its large-diameter engines, raked wingtips, and distinctive fuselage width. Compared to the 767, it has a wider body and taller landing gear. The A350 has a more streamlined nose and different wingtip design."
+  },
+  {
+    "id": "d8e4f2b9-7c5a-6d1e-b3f4-2a9e84b5c7e3",
+    "imageFileName": "civil_boeing_777_1",
+    "correctAnswer": "Boeing 777",
+    "options": ["Boeing 747", "Airbus A340", "Boeing 777", "Boeing 787"],
+    "category": "Civil Aircraft",
+    "difficulty": "Hard",
+    "explanation": "Unlike the four-engine Airbus A340 or Boeing 747, the Boeing 777 is a twin-engine widebody. Compared to the 787, it has a more conventional nose design and lacks the smooth, all-composite fuselage look."
+  },
+  {
+    "id": "b7e1d3c8-2a5b-9f6e-b1d4-7c4b92d5f1a6",
+    "imageFileName": "civil_boeing_777_1",
+    "correctAnswer": "Boeing 777",
+    "options": ["Boeing 777", "Boeing 767", "Airbus A330", "Boeing 757"],
+    "category": "Civil Aircraft",
+    "difficulty": "Easy",
+    "explanation": "The Boeing 777 is larger than the 767 and has noticeably bigger engines. Compared to the A330, its landing gear is more robust, and it lacks the A330's winglets."
+  },
+  {
+    "id": "f2b9d8e4-7c5a-6d1e-b3f4-2a9e84b5c7e3",
+    "imageFileName": "civil_boeing_777_2",
+    "correctAnswer": "Boeing 777",
+    "options": ["Boeing 767", "Airbus A330", "Boeing 777", "McDonnell Douglas MD-11"],
+    "category": "Civil Aircraft",
+    "difficulty": "Medium",
+    "explanation": "The Boeing 777 is characterized by its large-diameter engines, raked wingtips, and wide fuselage. Unlike the 767, it has taller landing gear and a larger fuselage cross-section. The MD-11 has a third engine on the tail."
+  },
+  {
+    "id": "b1f7a3d9-2c8e-4e6d-b2d5-6e3f91c8a7d6",
+    "imageFileName": "civil_boeing_777_2",
+    "correctAnswer": "Boeing 777",
+    "options": ["Boeing 747", "Boeing 787", "Boeing 777", "Airbus A340"],
+    "category": "Civil Aircraft",
+    "difficulty": "Hard",
+    "explanation": "Unlike the four-engine Airbus A340 or Boeing 747, the Boeing 777 is a twin-engine widebody. Compared to the 787, it has a more conventional nose design and lacks the all-composite fuselage look."
+  },
+  {
+    "id": "c7d4e1b2-9a5b-6f3e-b1d4-7c4b92d5f1a6",
+    "imageFileName": "civil_boeing_777_2",
+    "correctAnswer": "Boeing 777",
+    "options": ["Boeing 777", "Boeing 757", "Airbus A310", "Boeing 767"],
+    "category": "Civil Aircraft",
+    "difficulty": "Easy",
+    "explanation": "The Boeing 777 has larger engines than the 767 and lacks the winglets of the 757. Compared to the A310, it has a more modern and streamlined design."
+  },
+  {
+    "id": "d3a2c7f5-9b6d-4e3e-bf8d-1c8a9f2e7b6c",
+    "imageFileName": "civil_boeing_777_4",
+    "correctAnswer": "Boeing 777",
+    "options": ["Boeing 787", "Boeing 777", "Airbus A350", "McDonnell Douglas MD-11"],
+    "category": "Civil Aircraft",
+    "difficulty": "Medium",
+    "explanation": "The Boeing 777 is known for its large-diameter engines, tall landing gear, and distinctive fuselage design. Compared to the 787, the 777 has a more traditional nose shape and lacks the smooth, composite fuselage texture of the A350."
+  },
+  {
+    "id": "a8b2f9d6-5e7c-4f1d-a2b9-3c7e6d8f1a4b",
+    "imageFileName": "civil_boeing_777_4",
+    "correctAnswer": "Boeing 777",
+    "options": ["Airbus A310", "Boeing 767", "Boeing 747", "Boeing 777"],
+    "category": "Civil Aircraft",
+    "difficulty": "Hard",
+    "explanation": "This aircraft features the signature large-diameter GE90 engine, a giveaway for the Boeing 777. The 767 has smaller, more compact engines, and the A310 has a different wing and fuselage design. Unlike the 747, the 777 does not have a humpback upper deck."
+  },
+  {
+    "id": "f6d1b3a7-2c9e-4e5f-8d2b-1a7c3e9d5f6b",
+    "imageFileName": "civil_boeing_777_4",
+    "correctAnswer": "Boeing 777",
+    "options": ["Boeing 757", "Airbus A330", "Boeing 737 MAX", "Boeing 777"],
+    "category": "Civil Aircraft",
+    "difficulty": "Easy",
+    "explanation": "The massive General Electric GE90 engine nacelle and landing gear configuration distinguish the Boeing 777. The A330 has smaller, more oval-shaped engines, while the 737 MAX and 757 are narrowbody aircraft."
+  },
+  {
+      "id": "3ea670e1-96a4-4125-acd4-f4f2678b6817",
+      "imageFileName": "civil_Bombardier_CRJ-200_1.png",
+      "correctAnswer": "Bombardier CRJ-200",
+      "options": ["Airbus A320", "Bombardier CRJ-200", "McDonnell Douglas MD-80", "Boeing 737"],
+      "category": "Civil Aircraft",
+      "difficulty": "Easy",
+      "explanation": "The Bombardier CRJ-200 is a small regional jet with a distinctive narrow fuselage and rear-mounted engines, making it different from larger aircraft like the Boeing 737 or Airbus A320."
+  },
+  {
+      "id": "634d0a8e-f88e-42d5-8d79-edbab64dbe14",
+      "imageFileName": "civil_Bombardier_CRJ-200_1.png",
+      "correctAnswer": "Bombardier CRJ-200",
+      "options": ["ATR 72", "Bombardier CRJ-700", "Embraer ERJ-145", "Bombardier CRJ-200"],
+      "category": "Civil Aircraft",
+      "difficulty": "Medium",
+      "explanation": "The CRJ-200 is a shorter version of the CRJ series, with a fuselage length of about 87 feet. It shares similarities with the ERJ-145 but has a more cylindrical fuselage and a T-tail design."
+  },
+  {
+      "id": "d47e79c6-de6f-4c3b-a49f-85157a1da5cc",
+      "imageFileName": "civil_Bombardier_CRJ-200_1.png",
+      "correctAnswer": "Bombardier CRJ-200",
+      "options": ["Bombardier CRJ-200", "Bombardier CRJ-700", "Bombardier CRJ-900", "Bombardier CRJ-100"],
+      "category": "Civil Aircraft",
+      "difficulty": "Hard",
+      "explanation": "The Bombardier CRJ-200 is nearly identical to the CRJ-100 but features more efficient engines. It is shorter than the CRJ-700 and CRJ-900, with a seating capacity of around 50 passengers."
+  },
+  {
+      "id": "df700328-9eb3-42c7-8e6f-eb7c881f6023",
+      "imageFileName": "civil_Bombardier_CRJ-900_1.png",
+      "correctAnswer": "Bombardier CRJ-900",
+      "options": ["Boeing 737", "Bombardier CRJ-900", "Airbus A320", "Embraer E175"],
+      "category": "Civil Aircraft",
+      "difficulty": "Easy",
+      "explanation": "The Bombardier CRJ-900 is a stretched version of the CRJ series, designed for regional flights. Its narrow fuselage, rear-mounted engines, and T-tail make it distinct from larger jets like the Boeing 737 or Airbus A320."
+  },
+  {
+      "id": "5703f0e0-144a-4ea2-95bd-c22f9a5eb2c2",
+      "imageFileName": "civil_Bombardier_CRJ-900_1.png",
+      "correctAnswer": "Bombardier CRJ-900",
+      "options": ["Bombardier CRJ-900", "Bombardier CRJ-700", "Bombardier CRJ-200", "Embraer E190"],
+      "category": "Civil Aircraft",
+      "difficulty": "Medium",
+      "explanation": "The CRJ-900 is longer than the CRJ-700 and features an increased passenger capacity while maintaining similar avionics and design characteristics. Compared to the Embraer E190, it has a more slender fuselage and a different wing configuration."
+  },
+  {
+      "id": "e36a42f0-91c2-4b96-801d-8268c2bc6153",
+      "imageFileName": "civil_Bombardier_CRJ-900_1.png",
+      "correctAnswer": "Bombardier CRJ-900",
+      "options": ["Bombardier CRJ-550", "Bombardier CRJ-900", "Bombardier CRJ-700", "Bombardier CRJ-1000"],
+      "category": "Civil Aircraft",
+      "difficulty": "Hard",
+      "explanation": "The Bombardier CRJ-900 is part of the CRJ family, larger than the CRJ-700 but smaller than the CRJ-1000. It is distinguishable from the CRJ-550, which is a specialized version of the CRJ-700 with a lower seating capacity."
+  },
+  {
+      "id": "f8f4a768-2832-4568-93fc-591bd1e307c8",
+      "imageFileName": "civil_bombardier_global_7500_1.png",
+      "correctAnswer": "Bombardier Global 7500",
+      "options": ["Cessna Citation X", "Embraer Phenom 300", "Gulfstream G650", "Bombardier Global 7500"],
+      "category": "Civil Aircraft",
+      "difficulty": "Easy",
+      "explanation": "The Bombardier Global 7500 is a long-range business jet featuring a sleek fuselage, large cabin windows, and powerful rear-mounted engines, distinguishing it from smaller jets like the Cessna Citation X."
+  },
+  {
+      "id": "e7a7a04b-f948-4d5c-95d2-186943f8cbd1",
+      "imageFileName": "civil_bombardier_global_7500_1.png",
+      "correctAnswer": "Bombardier Global 7500",
+      "options": ["Gulfstream G700", "Dassault Falcon 8X", "Bombardier Global 6000", "Bombardier Global 7500"],
+      "category": "Civil Aircraft",
+      "difficulty": "Medium",
+      "explanation": "The Bombardier Global 7500 is a stretched, ultra-long-range business jet, larger than the Global 6000 and designed for intercontinental flights. It competes with the Gulfstream G700 and Dassault Falcon 8X in the luxury jet market."
+  },
+  {
+      "id": "2a70fb53-64a8-4bb2-bcc3-d5fc2933d2be",
+      "imageFileName": "civil_bombardier_global_7500_1.png",
+      "correctAnswer": "Bombardier Global 7500",
+      "options": ["Bombardier Global Express", "Bombardier Global 6000", "Bombardier Global 8000", "Bombardier Global 7500"],
+      "category": "Civil Aircraft",
+      "difficulty": "Hard",
+      "explanation": "The Bombardier Global 7500 is the successor to the Global 6000, with a longer fuselage, improved fuel efficiency, and an extended range. It closely resembles the Global 8000, which has a slightly different mission profile and range capability."
+  },
+  {
+      "id": "3f2ddc3c-2f83-4c40-859f-32ca6866ce01",
+      "imageFileName": "civil_cessna_152_1.png",
+      "correctAnswer": "Cessna 152",
+      "options": ["Diamond DA40", "Boeing 737", "Cessna 152", "Piper PA-28"],
+      "category": "Civil Aircraft",
+      "difficulty": "Easy",
+      "explanation": "The Cessna 152 is a small, high-wing, two-seat trainer aircraft commonly used for flight training. It is much smaller than commercial jets like the Boeing 737."
+  },
+  {
+      "id": "39bf131d-37d6-4d0d-b32f-a86a3191ea57",
+      "imageFileName": "civil_cessna_152_1.png",
+      "correctAnswer": "Cessna 152",
+      "options": ["Diamond DA20", "Cessna 172", "Cessna 152", "Piper PA-38 Tomahawk"],
+      "category": "Civil Aircraft",
+      "difficulty": "Medium",
+      "explanation": "The Cessna 152 is a popular training aircraft, slightly smaller and less powerful than the Cessna 172. It differs from the Piper PA-38 Tomahawk due to its high-wing design and more stable flight characteristics."
+  },
+  {
+      "id": "3624aa2a-1685-42d6-8efd-b3f80e7f9dc6",
+      "imageFileName": "civil_cessna_152_1.png",
+      "correctAnswer": "Cessna 152",
+      "options": ["Cessna 152", "Cessna 162", "Cessna 172", "Cessna 150"],
+      "category": "Civil Aircraft",
+      "difficulty": "Hard",
+      "explanation": "The Cessna 152 is an upgraded version of the Cessna 150, featuring a more powerful engine and structural enhancements. It is smaller than the Cessna 172 and lacks the modern avionics of the Cessna 162."
+  },
+    {
+      "id": "3d5f32d4-44b5-49a7-b7f9-d4c8a24a2c5f",
+      "imageFileName": "civil_embraer_e2_1",
+      "correctAnswer": "Embraer E2",
+      "options": ["Embraer E2", "Boeing 737", "Airbus A220", "Bombardier CRJ1000"],
+      "category": "Civil Aircraft",
+      "difficulty": "Easy",
+      "explanation": "The Embraer E2 series is recognized by its modern Pratt & Whitney geared turbofan engines, high aspect-ratio wings with distinctive wingtips, and a streamlined nose profile. Its overall size places it between regional jets and narrowbody airliners."
+    },
+    {
+      "id": "8c6f4f17-aeda-4a2b-9f7f-f9e147b2b8ad",
+      "imageFileName": "civil_embraer_e2_1",
+      "correctAnswer": "Embraer E2",
+      "options": ["Airbus A220", "Boeing 737 MAX 7", "Embraer E2", "Mitsubishi SpaceJet"],
+      "category": "Civil Aircraft",
+      "difficulty": "Medium",
+      "explanation": "The Embraer E2 can be differentiated from the Airbus A220 by its more conventional nose shape and tail design. Unlike the Boeing 737, it has taller landing gear and lacks the flat-bottomed engine nacelle. The Mitsubishi SpaceJet, while similar in size, has a more traditional wing design compared to the E2's advanced aerodynamics."
+    },
+    {
+      "id": "b19ef3a5-9241-4567-9aa8-3cd688bc192e",
+      "imageFileName": "civil_embraer_e2_1",
+      "correctAnswer": "Embraer E2",
+      "options": ["Embraer E190-E2", "Embraer E195-E2", "Embraer E175-E2", "Embraer E2"],
+      "category": "Civil Aircraft",
+      "difficulty": "Hard",
+      "explanation": "Distinguishing among Embraer E2 variants requires close attention to fuselage length and passenger door placement. The E195-E2 is the longest version, while the E175-E2 is shorter and designed for regional operations. The E190-E2 is between them in length but retains the same distinctive high-efficiency wingtips and modern engines."
+    },
+  {
+    "id": "550e8400-u27r-41d4-a716-446655440990",
+    "imageFileName": "civil_global_6000_1",
+    "correctAnswer": "Global 6000",
+    "options": ["Boeing 727", "Cessna 210", "Global 6000", "CRJ 900"],
+    "category": "Civil Aircraft",
+    "difficulty": "Easy",
+    "explanation": "Longer, streamlined fuselage with a sleek nose design"
+  },
+  {
+    "id": "550e8400-u27r-41d4-a716-446655440991",
+    "imageFileName": "civil_global_6000_1",
+    "correctAnswer": "Global 6000",
+    "options": ["CRJ 200", "Global 6000", "Citation CJ3", "Global 7500"],
+    "category": "Civil Aircraft",
+    "difficulty": "Medium",
+    "explanation": "Longer, streamlined fuselage with a sleek nose design"
+  },
+  {
+    "id": "550e8400-u27r-41d4-a716-446655440992",
+    "imageFileName": "civil_global_6000_1",
+    "correctAnswer": "Global 6000",
+    "options": ["Falcon 900", "Citation CJ3", "Global 6000", "Gulfstream G550"],
+    "category": "Civil Aircraft",
+    "difficulty": "Hard",
+    "explanation": "Longer, streamlined fuselage with a sleek nose design"
+  },
+    {
+      "id": "f2b1e28c-90d2-4f6b-a2c5-9d5e70c7e1ad",
+      "imageFileName": "military_thunder_mustang_1",
+      "correctAnswer": "Thunder Mustang",
+      "options": ["Thunder Mustang", "P-51 Mustang", "F4U Corsair", "Supermarine Spitfire"],
+      "category": "Military Aircraft",
+      "difficulty": "Easy",
+      "explanation": "The Thunder Mustang is a ¾ scale replica of the P-51 Mustang, featuring a composite airframe and a powerful V12 engine. It retains the iconic bubble canopy and fuselage shape but is noticeably smaller than the original."
+    },
+    {
+      "id": "7e5cb3f4-9643-49c9-93a1-75c52f77494a",
+      "imageFileName": "military_thunder_mustang_1",
+      "correctAnswer": "Thunder Mustang",
+      "options": ["North American P-51D", "Thunder Mustang", "Yakovlev Yak-3", "Hawker Sea Fury"],
+      "category": "Military Aircraft",
+      "difficulty": "Medium",
+      "explanation": "While the Thunder Mustang closely resembles the P-51D, it is smaller in scale and uses modern composite materials. Unlike the Yak-3 and Sea Fury, it has distinct air intake and exhaust arrangements that set it apart."
+    },
+    {
+      "id": "2a96f17c-5337-4cde-9df8-9eb5c15e1f83",
+      "imageFileName": "military_thunder_mustang_1",
+      "correctAnswer": "Thunder Mustang",
+      "options": ["Thunder Mustang", "North American P-51B", "North American P-51D", "Cavalier Mustang"],
+      "category": "Military Aircraft",
+      "difficulty": "Hard",
+      "explanation": "Distinguishing the Thunder Mustang from the full-scale P-51B and P-51D requires noting its smaller size and composite construction. Unlike the Cavalier Mustang, which was a modified full-scale P-51, the Thunder Mustang is purpose-built as a replica with modern enhancements."
+    }
+]
