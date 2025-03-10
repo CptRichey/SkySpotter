@@ -980,6 +980,168 @@
       "difficulty": "Hard",
       "explanation": "The Cessna 152 is an upgraded version of the Cessna 150, featuring a more powerful engine and structural enhancements. It is smaller than the Cessna 172 and lacks the modern avionics of the Cessna 162."
   },
+  {
+      "id": "7d1fd9c0-6f2c-46f5-aa88-f6a7887dfe0b",
+      "imageFileName": "civil_cessna_172_1.png",
+      "correctAnswer": "Cessna 172",
+      "options": ["Cessna 172", "Diamond DA40", "Boeing 717", "Piper PA-28"],
+      "category": "Civil Aircraft",
+      "difficulty": "Easy",
+      "explanation": "The Cessna 172 is a high-wing, four-seat general aviation aircraft and one of the most popular training airplanes worldwide."
+  },
+  {
+      "id": "f56be156-7ecc-43a5-8efe-9b492f20567e",
+      "imageFileName": "civil_cessna_172_2.png",
+      "correctAnswer": "Cessna 172",
+      "options": ["Cessna 172", "Cessna 208", "Piper PA-28", "Diamond DA40"],
+      "category": "Civil Aircraft",
+      "difficulty": "Easy",
+      "explanation": "The Cessna 172 is a high-wing, four-seat general aviation aircraft and one of the most popular training and personal airplanes. It is much smaller and lighter than a C208."
+  },
+  {
+      "id": "667cca1e-4a1c-4b04-9d19-6ac6de9f0a77",
+      "imageFileName": "civil_cessna_172_2.png",
+      "correctAnswer": "Cessna 172",
+      "options": ["Cessna 172", "Diamond DA20", "Piper PA-38 Tomahawk", "Cessna 152"],
+      "category": "Civil Aircraft",
+      "difficulty": "Medium",
+      "explanation": "The Cessna 172 is larger and more capable than the Cessna 152, typically used for four passengers. Its high-wing configuration and fixed tricycle landing gear distinguish it from low-wing trainers like the Piper PA-38 Tomahawk."
+  },
+  {
+      "id": "3c80c047-c4a0-4b94-9ad9-dd8ea6c50f8f",
+      "imageFileName": "civil_cessna_172_2.png",
+      "correctAnswer": "Cessna 172",
+      "options": ["Cessna 182", "Cessna 162", "Cessna 172", "Cessna 150"],
+      "category": "Civil Aircraft",
+      "difficulty": "Hard",
+      "explanation": "The Cessna 172 shares visual similarities with other Cessnas like the 182, but is less powerful and lighter. Unlike the Cessna 162, it has a larger cabin and greater utility, and it's a four-seater compared to the two-seater Cessna 150."
+  },
+  {
+      "id": "871c863b-3ef5-4526-9c32-81fedf571c75",
+      "imageFileName": "civil_cessna_172_1.png",
+      "correctAnswer": "Cessna 172",
+      "options": ["Diamond DA20", "Cessna 152", "Cessna 172", "Piper PA-38 Tomahawk"],
+      "category": "Civil Aircraft",
+      "difficulty": "Medium",
+      "explanation": "The Cessna 172 is larger and more powerful than the Cessna 152, with four seats instead of two. Its high-wing design and tricycle landing gear distinguish it from low-wing aircraft like the Piper PA-38 Tomahawk."
+  },
+  {
+      "id": "0a6332ee-158b-4d79-8632-bff57e617c82",
+      "imageFileName": "civil_cessna_172_1.png",
+      "correctAnswer": "Cessna 172",
+      "options": ["Cessna 182", "Cessna 150", "Cessna 162", "Cessna 172"],
+      "category": "Civil Aircraft",
+      "difficulty": "Hard",
+      "explanation": "The Cessna 172 shares similarities with the Cessna 182 but is slightly smaller and less powerful. Unlike the Cessna 150 and 162, the 172 offers four seats and has a longer wingspan."
+  },
+  {
+      "id": "656328af-23b6-49b6-84eb-c93adcee4cc8",
+      "imageFileName": "civil_cessna_208_1.png",
+      "correctAnswer": "Cessna 208 Caravan",
+      "options": ["Piper PA-28", "Cessna 172", "Cessna 208 Caravan", "Boeing 737"],
+      "category": "Civil Aircraft",
+      "difficulty": "Easy",
+      "explanation": "The Cessna 208 Caravan is a high-wing, single-engine turboprop known for its boxy fuselage and fixed landing gear, making it distinct from small piston-engine aircraft like the Cessna 172."
+  },
+  {
+      "id": "2bccce6e-fa48-466a-9fb2-527370287351",
+      "imageFileName": "civil_cessna_208_1.png",
+      "correctAnswer": "Cessna 208 Caravan",
+      "options": ["Beechcraft King Air", "Cessna 208 Caravan", "Pilatus PC-12", "Cessna 206"],
+      "category": "Civil Aircraft",
+      "difficulty": "Medium",
+      "explanation": "The Cessna 208 Caravan is larger than a Cessna 206 and features a turboprop engine. Unlike the Pilatus PC-12 and King Air, it has a simpler design with fixed gear, making it ideal for rugged operations."
+  },
+  {
+      "id": "b9cd259b-ac11-4de9-9656-c1f5b6193264",
+      "imageFileName": "civil_cessna_208_1.png",
+      "correctAnswer": "Cessna 208 Caravan",
+      "options": ["Cessna 208 Caravan", "Cessna 206 Stationair", "Cessna 208B Grand Caravan", "Cessna 208 Amphibian"],
+      "category": "Civil Aircraft",
+      "difficulty": "Hard",
+      "explanation": "The Cessna 208 Caravan comes in various configurations, including the Grand Caravan and Amphibian variants. The Caravan is smaller than the Grand Caravan and lacks floats seen in the Amphibian version, but they share a common airframe."
+  },
+  {
+      "id": "631f92fc-9dc4-4da0-94e1-19977c7181f1",
+      "imageFileName": "civil_cessna_340_1.png",
+      "correctAnswer": "Cessna 340",
+      "options": ["Cessna 172", "Piper PA-28", "Boeing 737", "Cessna 340"],
+      "category": "Civil Aircraft",
+      "difficulty": "Easy",
+      "explanation": "The Cessna 340 is a pressurized twin-engine aircraft recognizable by its round windows and sleek fuselage, much different from single-engine aircraft like the Cessna 172."
+  },
+  {
+      "id": "9561b970-63e0-4c5e-8b0e-5ccbc976d8ce",
+      "imageFileName": "civil_cessna_340_1.png",
+      "correctAnswer": "Cessna 340",
+      "options": ["Cessna 340", "Cessna 414", "Beechcraft Baron", "Piper Navajo"],
+      "category": "Civil Aircraft",
+      "difficulty": "Medium",
+      "explanation": "The Cessna 340 is a twin-engine, pressurized aircraft designed for business and personal travel. It shares similarities with the Beechcraft Baron and Piper Navajo but is distinguished by its round windows and distinctive nose."
+  },
+  {
+      "id": "f4ce56ed-d829-4072-aa8b-9ebdd727de1b",
+      "imageFileName": "civil_cessna_340_1.png",
+      "correctAnswer": "Cessna 340",
+      "options": ["Cessna 414 Chancellor", "Cessna 340", "Cessna 310", "Cessna 421 Golden Eagle"],
+      "category": "Civil Aircraft",
+      "difficulty": "Hard",
+      "explanation": "The Cessna 340 shares a similar airframe with the Cessna 414 Chancellor but is smaller and lighter. It is also distinct from the Cessna 421 Golden Eagle, which is larger and more powerful, and the unpressurized Cessna 310."
+  },
+  {
+      "id": "2eadf08a-9ec4-4c8a-b821-d3e34d5ff0bf",
+      "imageFileName": "civil_cessna_citation_jet_CJ2_1.png",
+      "correctAnswer": "Cessna Citation CJ2",
+      "options": ["Cessna 172", "Boeing 717", "Cessna Citation CJ2", "Piper PA-28"],
+      "category": "Civil Aircraft",
+      "difficulty": "Easy",
+      "explanation": "The Cessna Citation CJ2 is a small twin-engine business jet with rear-mounted engines and a sleek fuselage, clearly different from smaller piston-engine aircraft like the Cessna 172."
+  },
+  {
+      "id": "dfc3faf3-237d-44d3-a303-79bb0fd4fae0",
+      "imageFileName": "civil_cessna_citation_jet_CJ2_1.png",
+      "correctAnswer": "Cessna Citation CJ2",
+      "options": ["HondaJet HA-420", "Embraer Phenom 100", "Cessna Citation CJ3", "Cessna Citation CJ2"],
+      "category": "Civil Aircraft",
+      "difficulty": "Medium",
+      "explanation": "The Citation CJ2 is a light business jet, larger and more powerful than the CJ1 but smaller than the CJ3. It competes with jets like the Phenom 100 and HondaJet."
+  },
+  {
+      "id": "3d6d449a-a969-4d6c-86b3-5b6ee9c6a4ce",
+      "imageFileName": "civil_cessna_citation_jet_CJ2_1.png",
+      "correctAnswer": "Cessna Citation CJ2",
+      "options": ["Cessna Citation CJ3", "Cessna Citation CJ2", "Cessna Citation CJ1", "Cessna Citation Mustang"],
+      "category": "Civil Aircraft",
+      "difficulty": "Hard",
+      "explanation": "The CJ2 is an intermediate model in the CitationJet family, larger than the CJ1 and smaller than the CJ3. It can be distinguished from the Mustang by its longer fuselage and higher passenger capacity."
+  },
+  {
+      "id": "4b247f6f-a103-4814-943f-5682279557ff",
+      "imageFileName": "civil_cessna_citation_jet_2.png",
+      "correctAnswer": "Cessna CitationJet",
+      "options": ["Cessna CitationJet", "Cessna 172", "Boeing 737", "Piper PA-28"],
+      "category": "Civil Aircraft",
+      "difficulty": "Easy",
+      "explanation": "The Cessna CitationJet is a small business jet featuring two rear-mounted engines and a streamlined fuselage"
+  },
+  {
+      "id": "34474aeb-fb8e-4fc7-867b-ffb92f4fa942",
+      "imageFileName": "civil_cessna_citation_jet_2.png",
+      "correctAnswer": "Cessna CitationJet",
+      "options": ["HondaJet HA-420", "Embraer Phenom 100", "Cessna CitationJet", "Cessna Citation M2"],
+      "category": "Civil Aircraft",
+      "difficulty": "Medium",
+      "explanation": "The CitationJet is a light business jet that competes with other very light jets like the Phenom 100 and HondaJet."
+  },
+  {
+      "id": "17a1ce90-e7f8-450c-b751-ef4f408624f3",
+      "imageFileName": "civil_cessna_citation_jet_2.png",
+      "correctAnswer": "Cessna CitationJet",
+      "options": ["Cessna CitationJet", "Cessna Citation Mustang", "Cessna 208 Caravan", "Gulfstream G450"],
+      "category": "Civil Aircraft",
+      "difficulty": "Hard",
+      "explanation": "The CJ1 is the entry-level model of the CitationJet series, visually similar to the CJ2 and CJ3 but smaller and lighter. It also differs from the Citation Mustang, which has a smaller fuselage and lower passenger capacity."
+  },
     {
       "id": "3d5f32d4-44b5-49a7-b7f9-d4c8a24a2c5f",
       "imageFileName": "civil_embraer_e2_1",
@@ -1006,6 +1168,141 @@
       "category": "Civil Aircraft",
       "difficulty": "Hard",
       "explanation": "Distinguishing among Embraer E2 variants requires close attention to fuselage length and passenger door placement. The E195-E2 is the longest version, while the E175-E2 is shorter and designed for regional operations. The E190-E2 is between them in length but retains the same distinctive high-efficiency wingtips and modern engines."
+    },
+    {
+        "id": "abda7810-3813-4943-a996-fa860138d76f",
+        "imageFileName": "civil_dassault_falcon_900_1.png",
+        "correctAnswer": "Dassault Falcon 900",
+        "options": ["Bombardier Global 7500", "Cessna 210", "Dassault Falcon 900", "Boeing 727"],
+        "category": "Civil Aircraft",
+        "difficulty": "Easy",
+        "explanation": "The Dassault Falcon 900 is a tri-jet business jet, easily recognizable by its three rear-mounted engines, which sets it apart from simpler twin-engine jets and small aircraft like the Cessna 172."
+    },
+    {
+        "id": "90bf40fe-88e3-44cc-8fb2-43396e73675a",
+        "imageFileName": "civil_dassault_falcon_900_1.png",
+        "correctAnswer": "Dassault Falcon 900",
+        "options": ["Dassault Falcon 2000", "Bombardier Challenger 650", "Dassault Falcon 900", "Gulfstream G450"],
+        "category": "Civil Aircraft",
+        "difficulty": "Medium",
+        "explanation": "The Falcon 900 is part of Dassault's tri-jet family and features a wide fuselage and long range. It differs from the Falcon 2000, which has only two engines, and competes with aircraft like the Gulfstream G450 and Challenger 650."
+    },
+    {
+        "id": "c0ea1956-96ed-4fd7-9829-561260edfe97",
+        "imageFileName": "civil_dassault_falcon_900_1.png",
+        "correctAnswer": "Dassault Falcon 900",
+        "options": ["Dassault Falcon 900", "Dassault Falcon 2000", "Dassault Falcon 7X", "Dassault Falcon 8X"],
+        "category": "Civil Aircraft",
+        "difficulty": "Hard",
+        "explanation": "The Dassault Falcon 900 can be distinguished from the Falcon 7X and 8X by its shorter fuselage and older generation avionics. It shares the tri-jet layout but is smaller and less advanced compared to the 7X and 8X."
+    },
+    {
+        "id": "5a3541e5-0619-4f56-ac84-cd11c9b9912e",
+        "imageFileName": "civil_dassault_falcon_2000_1.png",
+        "correctAnswer": "Dassault Falcon 2000",
+        "options": ["Gulfstream G650", "Boeing 737", "Cessna 172", "Dassault Falcon 2000"],
+        "category": "Civil Aircraft",
+        "difficulty": "Easy",
+        "explanation": "The Dassault Falcon 2000 is a twin-engine business jet with a wide fuselage and sleek profile, easily distinguishable from commercial jets like the Boeing 737 or smaller piston aircraft like the Cessna 172."
+    },
+    {
+        "id": "bd7e5d97-f377-4d5d-b77b-94a286fc9598",
+        "imageFileName": "civil_dassault_falcon_2000_1.png",
+        "correctAnswer": "Dassault Falcon 2000",
+        "options": ["Bombardier Challenger 650", "Gulfstream G280", "Dassault Falcon 2000", "Dassault Falcon 900"],
+        "category": "Civil Aircraft",
+        "difficulty": "Medium",
+        "explanation": "The Falcon 2000 is a twin-engine jet in Dassault's lineup, smaller and simpler than the tri-engine Falcon 900 but competing with jets like the Bombardier Challenger 650 and Gulfstream G280."
+    },
+    {
+        "id": "2356c328-834a-4603-aa45-246bbba9c29b",
+        "imageFileName": "civil_dassault_falcon_2000_1.png",
+        "correctAnswer": "Dassault Falcon 2000",
+        "options": ["Dassault Falcon 2000LXS", "Dassault Falcon 2000S", "Dassault Falcon 2000", "Dassault Falcon 900"],
+        "category": "Civil Aircraft",
+        "difficulty": "Hard",
+        "explanation": "The Falcon 2000 family includes variants like the 2000S and 2000LXS, featuring different avionics and winglets. Unlike the Falcon 900, the 2000 has two engines instead of three, and a different tail design."
+    },
+    {
+        "id": "3c575816-1beb-41f1-8a59-8fcb546a7c79",
+        "imageFileName": "civil_dhc-3_otter_1.png",
+        "correctAnswer": "DHC-3 Otter",
+        "options": ["Cessna 172", "Piper PA-28", "DHC-3 Otter", "Boeing 210 Caravan"],
+        "category": "Civil Aircraft",
+        "difficulty": "Easy",
+        "explanation": "The de Havilland Canada DHC-3 Otter is a single-engine, high-wing bush plane often equipped with floats for water landings, making it very different from smaller trainers like the Cessna 172."
+    },
+    {
+        "id": "a3d45586-95ca-458d-ba1a-3158f8572f66",
+        "imageFileName": "civil_dhc-3_otter_1.png",
+        "correctAnswer": "DHC-3 Otter",
+        "options": ["DHC-2 Beaver", "Cessna 208 Caravan", "DHC-3 Otter", "Pilatus PC-6 Porter"],
+        "category": "Civil Aircraft",
+        "difficulty": "Medium",
+        "explanation": "The DHC-3 Otter is larger than the DHC-2 Beaver and typically has more capacity. Unlike the Cessna 208 Caravan, it often has a rounder fuselage and is designed for rugged operations like water and bush flying."
+    },
+    {
+        "id": "d52a67e1-3ad6-4b05-99a0-d84259247c94",
+        "imageFileName": "civil_dhc-3_otter_1.png",
+        "correctAnswer": "de Havilland Canada DHC-3 Otter",
+        "options": ["de Havilland Canada DHC-3 Otter", "Quest Kodiak", "Viking Air DHC-6 Twin Otter", "DHC-2 Beaver"],
+        "category": "Civil Aircraft",
+        "difficulty": "Hard",
+        "explanation": "The DHC-3 Otter can be distinguished from the Twin Otter by its single engine and longer nose. Compared to the Beaver, it is larger and typically features a higher capacity, while the Kodiak has a more modern appearance."
+    },
+    {
+        "id": "4bf939c1-01d5-4582-915e-593cfb119c83",
+        "imageFileName": "civil_diamond_da62_1.png",
+        "correctAnswer": "Diamond DA62",
+        "options": ["Cessna 172", "Diamond DA62", "Cessna CJ2", "Piper PA-28"],
+        "category": "Civil Aircraft",
+        "difficulty": "Easy",
+        "explanation": "The Diamond DA62 is a sleek twin-engine aircraft with a modern composite fuselage and distinctive T-tail, very different from smaller single-engine trainers like the Cessna 172."
+    },
+    {
+        "id": "2e31a094-a857-48b2-b8f1-e7db2adfcb0f",
+        "imageFileName": "civil_diamond_da62_1.png",
+        "correctAnswer": "Diamond DA62",
+        "options": ["Diamond DA42", "Diamond DA62", "Piper PA-44 Seminole", "Beechcraft Baron G58"],
+        "category": "Civil Aircraft",
+        "difficulty": "Medium",
+        "explanation": "The Diamond DA62 is larger and more powerful than the DA42 and features more advanced avionics and a refined cabin. Unlike the Piper PA-44 Seminole and Beechcraft Baron G58, it has a distinctive modern composite design."
+    },
+    {
+        "id": "8987e5ea-cbed-4887-b93c-c58b842290a1",
+        "imageFileName": "civil_diamond_da62_1.png",
+        "correctAnswer": "Diamond DA62",
+        "options": ["Diamond DA62", "Tecnam P2006T", "Diamond DA42", "Piper PA-30 Twin Comanche"],
+        "category": "Civil Aircraft",
+        "difficulty": "Hard",
+        "explanation": "The DA62 can be distinguished from the DA42 by its larger cabin and more powerful engines. It is more advanced than the Tecnam P2006T and Twin Comanche, with a sleeker profile and modern avionics."
+    },
+    {
+        "id": "142e8092-de4e-413f-a7a4-4e03ce468471",
+        "imageFileName": "civil_douglas_dc-3_1.png",
+        "correctAnswer": "Douglas DC-3",
+        "options": ["Piper PA-28", "Lockheed Constellation", "Douglas DC-3", "MD-11"],
+        "category": "Civil Aircraft",
+        "difficulty": "Easy",
+        "explanation": "The Douglas DC-3 is a classic twin-engine propeller-driven airliner, recognizable by its rounded fuselage and tailwheel undercarriage, unlike more modern jets like the MD-11."
+    },
+    {
+        "id": "a3a671af-583f-427a-80e6-d649dde09ea7",
+        "imageFileName": "civil_douglas_dc-3_1.png",
+        "correctAnswer": "Douglas DC-3",
+        "options": ["Martin 404", "Douglas DC-3", "Lockheed Constellation", "Convair 240"],
+        "category": "Civil Aircraft",
+        "difficulty": "Medium",
+        "explanation": "The Douglas DC-3 was a revolutionary airliner of its time, smaller and simpler than the four-engine Constellation and DC-4, and more common than the Convair 240 or Martin 404."
+    },
+    {
+        "id": "81eeed0a-8b81-4e48-93c0-d26fc5b1782b",
+        "imageFileName": "civil_douglas_dc-3_1.png",
+        "correctAnswer": "Douglas DC-3",
+        "options": ["Douglas C-47", "Douglas DC-4", "Douglas DC-2", "Douglas DC-3"],
+        "category": "Civil Aircraft",
+        "difficulty": "Hard",
+        "explanation": "The DC-3 can be distinguished from the similar C-47 military variant by its civilian fittings, and from the DC-2 by its wider fuselage and larger size. Unlike the DC-4, the DC-3 has only two engines."
     },
   {
     "id": "550e8400-u27r-41d4-a716-446655440990",
