@@ -1,178 +1,145 @@
-import Foundation
 import SwiftUI
 import Combine
 
 class QuizViewModel: ObservableObject {
     @Published var quiz: Quiz?
-    @Published var selectedAnswer: String?
-    @Published var hasAnswered = false
-    @Published var isCorrect = false
-    @Published var showExplanation = false
-    @Published var quizCompleted = false
-    @Published var correctAnswers = 0
-    @Published var showAdAfterQuiz = false
-    @Published var pointsEarned = 0
+    @Published var currentQuestionIndex: Int = 0
+    @Published var selectedAnswer: String? = nil
+    @Published var hasAnswered: Bool = false
+    @Published var isCorrect: Bool = false
+    @Published var showExplanation: Bool = false
+    @Published var showResults: Bool = false
+    @Published var pointsEarned: Int = 0
+    @Published var correctAnswers: Int = 0
+    @Published var isLoading: Bool = true
     
     private var dataService = DataService.shared
-    private var adService = AdService.shared
-    private var totalScore = 0
+    private var cancellables = Set<AnyCancellable>()
+
+    // MARK: - Computed Properties
+
+    var currentQuestion: Question? {
+        quiz?.currentQuestion
+    }
+
+    var totalQuestions: Int {
+        quiz?.totalQuestions ?? 0
+    }
+
+    var progress: Double {
+        guard let quiz = quiz else { return 0 }
+        let current = min(currentQuestionIndex + 1, totalQuestions)
+        return Double(current) / Double(totalQuestions)
+    }
+
+    var currentQuestionShuffledOptions: [String] {
+        quiz?.currentQuestionShuffledOptions ?? []
+    }
+
+    // MARK: - Create Quiz
     
-    // Create a new quiz
-        func createQuiz(category: Category, difficulty: Difficulty) {
-            quiz = dataService.createQuiz(category: category, difficulty: difficulty)
+    func createQuiz(category: Category, difficulty: Difficulty) {
+        isLoading = true
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) { [weak self] in
+            guard let self = self else { return }
             
-            // Debug: Print information about the quiz questions
-            if let quiz = quiz {
-                print("📋 Created quiz with \(quiz.questions.count) questions")
-                
-                // Verify the explanations are present in the first few questions
-                for (index, question) in quiz.questions.prefix(3).enumerated() {
-                    let explanationPreview = question.explanation.isEmpty ? "EMPTY" :
-                        String(question.explanation.prefix(30)) + (question.explanation.count > 30 ? "..." : "")
-                    print("Question \(index + 1) - \(question.correctAnswer)")
-                    print("  Explanation: \(explanationPreview)")
-                }
-            } else {
-                print("❌ Failed to create quiz - quiz is nil")
+            let newQuiz = self.dataService.createQuiz(category: category, difficulty: difficulty)
+            
+            DispatchQueue.main.async {
+                self.quiz = newQuiz
+                self.currentQuestionIndex = 0
+                self.correctAnswers = 0
+                self.resetStateForNextQuestion()
+                self.isLoading = false
+                self.showResults = false
             }
+        }
+    }
+
+    // MARK: - Answer Logic
+
+    func selectAnswer(_ answer: String) {
+        guard let currentQuestion = currentQuestion, !hasAnswered else { return }
+        
+        hasAnswered = true
+        selectedAnswer = answer
+        isCorrect = (answer == currentQuestion.correctAnswer)
+        
+        if isCorrect {
+            correctAnswers += 1
+            pointsEarned = calculatePoints(for: currentQuestion.difficulty)
             
-            resetState()
-            correctAnswers = 0
-            totalScore = 0
+            // Add points to the quiz
+            if var quizCopy = quiz {
+                quizCopy.addPoints(pointsEarned)
+                quiz = quizCopy
+            }
+        } else {
             pointsEarned = 0
         }
+    }
+
+    func nextQuestion() {
+        print("Next question called, current index: \(currentQuestionIndex), total: \(totalQuestions)")
+        
+        if currentQuestionIndex < totalQuestions - 1 {
+            // More questions to go
+            if var quizCopy = quiz {
+                let hasMore = quizCopy.nextQuestion()
+                quiz = quizCopy
+                currentQuestionIndex += 1
+                resetStateForNextQuestion()
+                print("Advanced to question \(currentQuestionIndex + 1) of \(totalQuestions)")
+            }
+        } else {
+            // This was the last question
+            print("Last question completed, showing results")
+            recordQuizResults()
+            showResults = true
+        }
+    }
+
+    func resetStateForNextQuestion() {
+        hasAnswered = false
+        selectedAnswer = nil
+        isCorrect = false
+        showExplanation = false
+        pointsEarned = 0
+    }
     
-    // Reset the quiz state for a new question
-    private func resetState() {
+    func calculatePoints(for difficulty: Difficulty) -> Int {
+        switch difficulty {
+        case .easy:
+            return 10
+        case .medium:
+            return 20
+        case .hard:
+            return 30
+        }
+    }
+    
+    func recordQuizResults() {
+        guard let quiz = quiz else { return }
+        
+        print("Recording quiz results: Score \(quiz.score), Correct answers: \(correctAnswers)/\(totalQuestions)")
+        
+        // Update the user's total score
+        dataService.updateScore(with: quiz.score)
+        
+        // Record the quiz completion stats
+        dataService.recordQuizCompletion(questionsAnswered: totalQuestions, correctAnswers: correctAnswers)
+    }
+    
+    func resetQuiz() {
+        quiz = nil
+        currentQuestionIndex = 0
         selectedAnswer = nil
         hasAnswered = false
         isCorrect = false
         showExplanation = false
-    }
-    
-    // Handle answer selection
-    func selectAnswer(_ answer: String) {
-        guard !hasAnswered, let currentQuestion = quiz?.currentQuestion else { return }
-        
-        // Calculate on background thread if needed
-        let isAnswerCorrect = answer == currentQuestion.correctAnswer
-        let calculatedPoints: Int
-        
-        if isAnswerCorrect {
-            // Calculate points based on difficulty
-            let basePoints = 100
-            let difficultyMultiplier = currentQuestion.difficulty.pointMultiplier
-            calculatedPoints = basePoints * difficultyMultiplier
-            
-            // Update total score
-            totalScore += calculatedPoints
-        } else {
-            calculatedPoints = 0
-        }
-        
-        // Update UI on main thread
-        DispatchQueue.main.async {
-            self.selectedAnswer = answer
-            self.hasAnswered = true
-            self.isCorrect = isAnswerCorrect
-            
-            if isAnswerCorrect {
-                self.correctAnswers += 1
-                self.pointsEarned = calculatedPoints
-                
-                // Update the quiz score
-                if var updatedQuiz = self.quiz {
-                    updatedQuiz.addPoints(100) // base points
-                    self.quiz = updatedQuiz
-                }
-            }
-        }
-    }
-    
-    // Move to next question
-    func nextQuestion() {
-        guard var quiz = quiz else { return }
-        
-        let hasMoreQuestions = quiz.nextQuestion()
-        
-        DispatchQueue.main.async {
-            self.quiz = quiz
-            
-            if hasMoreQuestions {
-                self.resetState()
-            } else {
-                // Calculate if we should show an ad before results
-                self.showAdAfterQuiz = self.adService.canShowAd()
-                
-                // Quiz completed
-                self.completeQuiz()
-            }
-        }
-    }
-    
-    // Handle quiz completion
-    func completeQuiz() {
-        guard let quiz = quiz else { return }
-        
-        // We'll do these operations on the main thread since they affect UI
-        DispatchQueue.main.async {
-            // If we should show an ad, we'll show the ad first and then set quizCompleted in showResultsAfterAd()
-            if self.showAdAfterQuiz {
-                // Leave quizCompleted as false until the ad is shown
-                
-                // Update user stats first
-                self.updateStatsAndAchievements(quiz)
-                
-                // The ad and then results will be shown in the view
-            } else {
-                // No ad to show, go straight to results
-                self.quizCompleted = true
-                self.updateStatsAndAchievements(quiz)
-            }
-        }
-    }
-    
-    // Show results after ad is shown or skipped
-    func showResultsAfterAd() {
-        // Actually attempt to show the ad with more logging
-        print("Attempting to show interstitial ad...")
-        let adShown = self.adService.showInterstitialAd()
-        
-        // Force a small delay to ensure ad has time to appear
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
-            // Regardless of whether the ad was actually shown, proceed to results
-            self.showAdAfterQuiz = false
-            self.quizCompleted = true
-            
-            if adShown {
-                print("Ad display was requested - should be visible now")
-            } else {
-                print("Ad display was skipped")
-            }
-        }
-    }
-    
-    // Update stats and achievements
-    private func updateStatsAndAchievements(_ quiz: Quiz) {
-        // Update user stats
-        self.dataService.updateScore(with: self.totalScore)
-        self.dataService.recordQuizCompletion(
-            questionsAnswered: quiz.totalQuestions,
-            correctAnswers: self.correctAnswers
-        )
-        
-        // Submit score to Game Center
-        GameCenterService.shared.submitScore(score: self.dataService.getUserStats().totalScore, to: .totalScore)
-        GameCenterService.shared.submitScore(score: self.dataService.getUserStats().currentStreak, to: .streak)
-    }
-    
-    // Skip to the results (for testing or if user wants to quit)
-    func skipToResults() {
-        completeQuiz()
-        
-        // If there was an ad pending, skip it
-        if showAdAfterQuiz {
-            showResultsAfterAd()
-        }
+        showResults = false
+        pointsEarned = 0
+        correctAnswers = 0
     }
 }

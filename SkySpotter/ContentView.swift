@@ -19,9 +19,9 @@ struct ContentView: View {
             }
         }
         .onAppear {
-            // Setup initial ad loading
-            AdService.shared.loadInterstitialAd()
-            
+            // ✅ FIX: Load rewarded interstitial ad instead of old interstitial method
+            Task { await AdService.shared.loadRewardedInterstitialAd() }
+
             // Show splash for a few seconds then transition to main app
             DispatchQueue.main.asyncAfter(deadline: .now() + 2.5) {
                 withAnimation(.easeInOut(duration: 0.6)) {

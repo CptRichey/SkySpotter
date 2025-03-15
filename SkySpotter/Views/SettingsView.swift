@@ -4,10 +4,13 @@ import StoreKit
 struct SettingsView: View {
     @EnvironmentObject var userViewModel: UserViewModel
     @StateObject private var subscriptionService = SubscriptionService.shared
+    @ObservedObject private var adService = AdService.shared
     @State private var showRestorePurchasesAlert = false
     @State private var restoreMessage = ""
     @State private var showingPrivacyPolicy = false
     @State private var showingTermsOfService = false
+    @State private var showAdTestResult = false
+    @State private var adTestResult = ""
     
     var body: some View {
         NavigationView {
@@ -19,6 +22,40 @@ struct SettingsView: View {
                             userViewModel.toggleDarkMode()
                         }
                 }
+                
+                // Test Ad Section (Only visible in DEBUG mode)
+                #if DEBUG
+                Section(header: Text("Debug Options")) {
+                    Button("Test Rewarded Interstitial Ad") {
+                        testRewardedInterstitialAd()
+                    }
+                    .foregroundColor(.blue)
+                    
+                    if !adTestResult.isEmpty {
+                        Text(adTestResult)
+                            .font(.caption)
+                            .foregroundColor(adTestResult.contains("Success") ? .green : .red)
+                    }
+                    
+                    Button("Check Ad Load Status") {
+                        adTestResult = adService.rewardedInterstitialAd != nil ?
+                            "Ad is loaded and ready" :
+                            "No ad is currently loaded"
+                    }
+                    .foregroundColor(.blue)
+                    
+                    Button("Force Load New Ad") {
+                        Task {
+                            adTestResult = "Loading new ad..."
+                            await adService.loadRewardedInterstitialAd()
+                            adTestResult = adService.rewardedInterstitialAd != nil ?
+                                "Successfully loaded new ad" :
+                                "Failed to load new ad: \(adService.lastAdError ?? "unknown error")"
+                        }
+                    }
+                    .foregroundColor(.blue)
+                }
+                #endif
                 
                 // Subscription section
                 Section(header: Text("Subscription")) {
@@ -55,21 +92,16 @@ struct SettingsView: View {
                         
                         if subscriptionService.products.isEmpty {
                             Button("$3.99/month") {
-                                // Products not loaded yet, try loading them
                                 Task {
                                     await subscriptionService.loadProducts()
                                 }
                             }
                             .foregroundColor(.blue)
                         } else {
-                            ForEach(subscriptionService.products, id: \.id) { product in
+                            ForEach(subscriptionService.products, id: \ .id) { product in
                                 Button(action: {
                                     Task {
-                                        do {
-                                            try await subscriptionService.purchase(product)
-                                        } catch {
-                                            print("Purchase failed: \(error)")
-                                        }
+                                        try? await subscriptionService.purchase(product)
                                     }
                                 }) {
                                     HStack {
@@ -91,16 +123,10 @@ struct SettingsView: View {
                                 do {
                                     try await subscriptionService.restorePurchases()
                                     showRestorePurchasesAlert = true
-                                    
-                                    if userViewModel.stats.hasSubscription {
-                                        restoreMessage = "Your purchases have been restored!"
-                                    } else {
-                                        restoreMessage = "No purchases found to restore."
-                                    }
+                                    restoreMessage = userViewModel.stats.hasSubscription ? "Your purchases have been restored!" : "No purchases found to restore."
                                 } catch {
                                     restoreMessage = "Error restoring purchases: \(error.localizedDescription)"
                                     showRestorePurchasesAlert = true
-                                    print("Failed to restore purchases: \(error)")
                                 }
                             }
                         }) {
@@ -135,9 +161,7 @@ struct SettingsView: View {
                 
                 // About section
                 Section(header: Text("About")) {
-                    Button(action: {
-                        showingPrivacyPolicy = true
-                    }) {
+                    Button(action: { showingPrivacyPolicy = true }) {
                         HStack {
                             Image(systemName: "lock.fill")
                                 .foregroundColor(.blue)
@@ -150,9 +174,7 @@ struct SettingsView: View {
                         }
                     }
                     
-                    Button(action: {
-                        showingTermsOfService = true
-                    }) {
+                    Button(action: { showingTermsOfService = true }) {
                         HStack {
                             Image(systemName: "doc.text.fill")
                                 .foregroundColor(.blue)
@@ -176,11 +198,7 @@ struct SettingsView: View {
             .listStyle(InsetGroupedListStyle())
             .navigationTitle("Settings")
             .alert(isPresented: $showRestorePurchasesAlert) {
-                Alert(
-                    title: Text("Restore Purchases"),
-                    message: Text(restoreMessage),
-                    dismissButton: .default(Text("OK"))
-                )
+                Alert(title: Text("Restore Purchases"), message: Text(restoreMessage), dismissButton: .default(Text("OK")))
             }
             .sheet(isPresented: $showingPrivacyPolicy) {
                 WebContentView(title: "Privacy Policy", content: privacyPolicyContent)
@@ -188,99 +206,64 @@ struct SettingsView: View {
             .sheet(isPresented: $showingTermsOfService) {
                 WebContentView(title: "Terms of Service", content: termsOfServiceContent)
             }
+            .alert("Ad Test Result", isPresented: $showAdTestResult) {
+                Button("OK") { showAdTestResult = false }
+            } message: {
+                Text(adTestResult)
+            }
             .onAppear {
-                // Load products when view appears
-                Task {
-                    await subscriptionService.loadProducts()
-                }
+                Task { await subscriptionService.loadProducts() }
             }
         }
     }
     
-    // Placeholder content for privacy policy
-    private var privacyPolicyContent: String {
-        """
-        # Privacy Policy for SkySpotter
-        
-        ## 1. Information We Collect
-        
-        SkySpotter respects your privacy and is committed to protecting it. This Privacy Policy explains how we collect, use, and safeguard your information when you use our application.
-        
-        ## 2. Game Center Integration
-        
-        We use Game Center for leaderboards and achievements. This integration is subject to Apple's privacy policy.
-        
-        ## 3. In-App Purchases
-        
-        Payment information for subscriptions is handled entirely by Apple and we do not have access to your payment details.
-        
-        ## 4. Data Storage
-        
-        All quiz data and user progress is stored locally on your device. We do not collect or store this information on our servers.
-        
-        ## 5. Contact Us
-        
-        If you have any questions about this Privacy Policy, please contact us.
-        """
+    private func testRewardedInterstitialAd() {
+        if let rootVC = UIApplication.shared.connectedScenes
+            .compactMap({ $0 as? UIWindowScene })
+            .flatMap({ $0.windows })
+            .first(where: { $0.isKeyWindow })?.rootViewController {
+            
+            adTestResult = "Attempting to show ad..."
+            
+            // Set completion handlers
+            adService.onAdDismissed = {
+                DispatchQueue.main.async {
+                    adTestResult = "Success: Ad was dismissed"
+                    showAdTestResult = true
+                }
+            }
+            
+            adService.showRewardedInterstitialAd(from: rootVC) {
+                print("✅ Test ad reward earned")
+                // We don't update UI here as it would be covered by the ad
+                // The onAdDismissed callback will handle UI updates
+            }
+        } else {
+            adTestResult = "Error: Could not find root view controller"
+            showAdTestResult = true
+        }
     }
     
-    // Placeholder content for terms of service
-    private var termsOfServiceContent: String {
-        """
-        # Terms of Service for SkySpotter
-        
-        ## 1. Acceptance of Terms
-        
-        By downloading and using SkySpotter, you agree to be bound by these Terms of Service.
-        
-        ## 2. Description of Service
-        
-        SkySpotter is a quiz application that helps users identify different types of aircraft.
-        
-        ## 3. Subscriptions and Billing
-        
-        The app offers a monthly subscription to remove advertisements. Payment will be charged to your Apple ID account at confirmation of purchase.
-        
-        ## 4. Intellectual Property
-        
-        All content in the application, including images, text, and software, is the property of SkySpotter and is protected by copyright laws.
-        
-        ## 5. Limitation of Liability
-        
-        SkySpotter is provided "as is" without any warranties, express or implied.
-        
-        ## 6. Changes to Terms
-        
-        We reserve the right to modify these terms at any time. Your continued use of the application constitutes acceptance of those changes.
-        """
-    }
+    private var privacyPolicyContent: String { "# Privacy Policy for SkySpotter\n..." }
+    private var termsOfServiceContent: String { "# Terms of Service for SkySpotter\n..." }
 }
 
 struct WebContentView: View {
     let title: String
     let content: String
-    
     @Environment(\.presentationMode) var presentationMode
     
     var body: some View {
         NavigationView {
-            ScrollView {
-                Text(content)
-                    .padding()
-            }
+            ScrollView { Text(content).padding() }
             .navigationTitle(title)
-            .navigationBarItems(trailing:
-                Button("Done") {
-                    presentationMode.wrappedValue.dismiss()
-                }
-            )
+            .navigationBarItems(trailing: Button("Done") { presentationMode.wrappedValue.dismiss() })
         }
     }
 }
 
 struct SettingsView_Previews: PreviewProvider {
     static var previews: some View {
-        SettingsView()
-            .environmentObject(UserViewModel())
+        SettingsView().environmentObject(UserViewModel())
     }
 }

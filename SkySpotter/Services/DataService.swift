@@ -56,7 +56,15 @@ class DataService {
         var stats = getUserStats()
         stats.questionsAnswered += questionsAnswered
         stats.correctAnswers += correctAnswers
-        stats.updateStreak()
+        
+        // If streak was broken (0), set it to 1 when completing a new quiz
+        if stats.currentStreak == 0 {
+            stats.currentStreak = 1
+            stats.lastPlayedDate = Date()
+        } else {
+            stats.updateStreak()
+        }
+        
         saveUserStats(stats)
         
         print("Quiz completed - Correct answers: \(correctAnswers)/\(questionsAnswered)")

@@ -79,11 +79,6 @@ struct Question: Identifiable, Codable {
         self.difficulty = difficulty
         self.explanation = explanation
     }
-    
-    // Shuffled options for display
-    var shuffledOptions: [String] {
-        options.shuffled()
-    }
 }
 
 // Structure to represent a quiz session
@@ -95,10 +90,18 @@ struct Quiz: Identifiable {
     var currentQuestionIndex: Int = 0
     var score: Int = 0
     var completed: Bool = false
+    var shuffledOptions: [[String]] = [] // Store shuffled options for each question
     
     var currentQuestion: Question? {
         guard currentQuestionIndex < questions.count else { return nil }
         return questions[currentQuestionIndex]
+    }
+    
+    var currentQuestionShuffledOptions: [String] {
+        guard currentQuestionIndex < shuffledOptions.count else {
+            return currentQuestion?.options ?? []
+        }
+        return shuffledOptions[currentQuestionIndex]
     }
     
     var progress: Float {
@@ -117,6 +120,15 @@ struct Quiz: Identifiable {
     
     mutating func addPoints(_ points: Int) {
         score += points * difficulty.pointMultiplier
+    }
+    
+    init(category: Category, difficulty: Difficulty, questions: [Question]) {
+        self.category = category
+        self.difficulty = difficulty
+        self.questions = questions
+        
+        // Pre-shuffle all question options when quiz is created
+        self.shuffledOptions = questions.map { $0.options.shuffled() }
     }
 }
 
@@ -159,7 +171,8 @@ struct UserStats: Codable {
         }
         
         // Check if last played yesterday
-        if Calendar.current.isDate(lastPlayed, inSameDayAs: Calendar.current.date(byAdding: .day, value: -1, to: Date())!) {
+        if let yesterdayDate = Calendar.current.date(byAdding: .day, value: -1, to: Date()),
+           Calendar.current.isDate(lastPlayed, inSameDayAs: yesterdayDate) {
             currentStreak += 1
             
             // Update longest streak if needed
@@ -167,8 +180,8 @@ struct UserStats: Codable {
                 longestStreak = currentStreak
             }
         } else {
-            // Streak broken
-            currentStreak = 1
+            // Streak broken - set to 0 until they complete a quiz
+            currentStreak = 0
         }
         
         // Update last played date

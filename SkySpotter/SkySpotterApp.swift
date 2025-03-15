@@ -9,10 +9,7 @@ class AppDelegate: NSObject, UIApplicationDelegate {
         // Initialize the Google Mobile Ads SDK
         MobileAds.shared.start { status in
             // Check initialization status
-            // Check initialization status without specific enum comparison
-            print("AdMob initialization status: \(status.description)")
-                print("AdMob SDK initialization completed successfully")
-            // No else needed since we're logging above
+            print("AdMob initialization status: \(status)")
             
             // For testing - enable test devices
             #if DEBUG
